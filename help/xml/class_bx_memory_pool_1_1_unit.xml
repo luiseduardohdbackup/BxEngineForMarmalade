@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="class_bx_memory_pool_1_1_unit" kind="class" prot="private">
+    <compoundname>BxMemoryPool::Unit</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_bx_memory_pool_1_1_unit_1a593bf8623239326897c55000a7cad0ea" prot="public" static="no">
+        <name>@0</name>
+        <enumvalue id="class_bx_memory_pool_1_1_unit_1a593bf8623239326897c55000a7cad0eaaa9231c93fac6f8dc4d7b73d962aba385" prot="public">
+          <name>MAX</name>
+          <initializer> 256</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" line="107" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" bodystart="107" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bx_memory_pool_1_1_unit_1a70f656b3d954d2b6d56ad69a57678e88" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte BxMemoryPool&lt; TYPE &gt;::Unit::Data[MAX][sizeof(TYPE)]</definition>
+        <argsstring>[MAX][sizeof(TYPE)]</argsstring>
+        <name>Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" line="108" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bx_memory_pool_1_1_unit_1a2d1e944a94a8c76942d3f974f9d0aaf1" prot="public" static="no" mutable="no">
+        <type>TYPE *</type>
+        <definition>TYPE* BxMemoryPool&lt; TYPE &gt;::Unit::Focus</definition>
+        <argsstring></argsstring>
+        <name>Focus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" line="109" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bx_memory_pool_1_1_unit_1a97675981a7474e355a71407843dd7729" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BxMemoryPool&lt; TYPE &gt;::Unit::Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" line="110" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bx_memory_pool_1_1_unit_1a3ffae9c188c182965974de752f33c1cc" prot="public" static="no" mutable="no">
+        <type>Unit *</type>
+        <definition>Unit* BxMemoryPool&lt; TYPE &gt;::Unit::Next</definition>
+        <argsstring></argsstring>
+        <name>Next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" line="111" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bx_memory_pool_1_1_unit_1afcd837fb740811f14c8b4b634f7b9a09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BxMemoryPool&lt; TYPE &gt;::Unit::Unit</definition>
+        <argsstring>()</argsstring>
+        <name>Unit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" line="113" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" bodystart="112" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_memory_pool_1_1_unit_1a1d983b5b7af1eaa2866e474df3d7fa1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual BxMemoryPool&lt; TYPE &gt;::Unit::~Unit</definition>
+        <argsstring>()</argsstring>
+        <name>~Unit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" line="121" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" bodystart="120" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_memory_pool_1_1_unit_1a90f75493dc882fe5dd17a91c53b4bca0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TYPE *</type>
+        <definition>TYPE* BxMemoryPool&lt; TYPE &gt;::Unit::Make</definition>
+        <argsstring>()</argsstring>
+        <name>Make</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" line="132" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" bodystart="131" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_memory_pool_1_1_unit_1a343ca17dd1e6661390818b0dcd892bdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BxMemoryPool&lt; TYPE &gt;::Unit::PreFree</definition>
+        <argsstring>(TYPE *Ptr)</argsstring>
+        <name>PreFree</name>
+        <param>
+          <type>TYPE *</type>
+          <declname>Ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" line="139" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" bodystart="138" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_memory_pool_1_1_unit_1ad109cda83a6b8eefd1fcaf6f25ff1ed1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BxMemoryPool&lt; TYPE &gt;::Unit::Free</definition>
+        <argsstring>(TYPE *Ptr)</argsstring>
+        <name>Free</name>
+        <param>
+          <type>TYPE *</type>
+          <declname>Ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" line="146" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" bodystart="145" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="93">
+        <label>BxMemoryPool&lt; TYPE &gt;::Unit</label>
+        <childnode refid="93" relation="usage">
+          <edgelabel>Next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" line="105" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryPool.hpp" bodystart="104" bodyend="159"/>
+    <listofallmembers>
+      <member refid="class_bx_memory_pool_1_1_unit_1a97675981a7474e355a71407843dd7729" prot="public" virt="non-virtual"><scope>BxMemoryPool::Unit</scope><name>Count</name></member>
+      <member refid="class_bx_memory_pool_1_1_unit_1a70f656b3d954d2b6d56ad69a57678e88" prot="public" virt="non-virtual"><scope>BxMemoryPool::Unit</scope><name>Data</name></member>
+      <member refid="class_bx_memory_pool_1_1_unit_1a2d1e944a94a8c76942d3f974f9d0aaf1" prot="public" virt="non-virtual"><scope>BxMemoryPool::Unit</scope><name>Focus</name></member>
+      <member refid="class_bx_memory_pool_1_1_unit_1ad109cda83a6b8eefd1fcaf6f25ff1ed1" prot="public" virt="non-virtual"><scope>BxMemoryPool::Unit</scope><name>Free</name></member>
+      <member refid="class_bx_memory_pool_1_1_unit_1a90f75493dc882fe5dd17a91c53b4bca0" prot="public" virt="non-virtual"><scope>BxMemoryPool::Unit</scope><name>Make</name></member>
+      <member refid="class_bx_memory_pool_1_1_unit_1a593bf8623239326897c55000a7cad0eaaa9231c93fac6f8dc4d7b73d962aba385" prot="public" virt="non-virtual"><scope>BxMemoryPool::Unit</scope><name>MAX</name></member>
+      <member refid="class_bx_memory_pool_1_1_unit_1a3ffae9c188c182965974de752f33c1cc" prot="public" virt="non-virtual"><scope>BxMemoryPool::Unit</scope><name>Next</name></member>
+      <member refid="class_bx_memory_pool_1_1_unit_1a343ca17dd1e6661390818b0dcd892bdd" prot="public" virt="non-virtual"><scope>BxMemoryPool::Unit</scope><name>PreFree</name></member>
+      <member refid="class_bx_memory_pool_1_1_unit_1afcd837fb740811f14c8b4b634f7b9a09" prot="public" virt="non-virtual"><scope>BxMemoryPool::Unit</scope><name>Unit</name></member>
+      <member refid="class_bx_memory_pool_1_1_unit_1a1d983b5b7af1eaa2866e474df3d7fa1e" prot="public" virt="virtual"><scope>BxMemoryPool::Unit</scope><name>~Unit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

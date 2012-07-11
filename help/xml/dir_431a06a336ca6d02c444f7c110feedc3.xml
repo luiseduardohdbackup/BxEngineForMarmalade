@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="dir_431a06a336ca6d02c444f7c110feedc3" kind="dir">
+    <compoundname>C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/</compoundname>
+    <innerfile refid="_bx_auto_buffer_8hpp">BxAutoBuffer.hpp</innerfile>
+    <innerfile refid="_bx_core_8cpp">BxCore.cpp</innerfile>
+    <innerfile refid="_bx_core_8hpp">BxCore.hpp</innerfile>
+    <innerfile refid="_bx_draw_8hpp">BxDraw.hpp</innerfile>
+    <innerfile refid="_bx_image_8hpp">BxImage.hpp</innerfile>
+    <innerfile refid="_bx_keyword_8hpp">BxKeyword.hpp</innerfile>
+    <innerfile refid="_bx_memory_8hpp">BxMemory.hpp</innerfile>
+    <innerfile refid="_bx_memory3_8hpp">BxMemory3.hpp</innerfile>
+    <innerfile refid="_bx_memory4_8hpp">BxMemory4.hpp</innerfile>
+    <innerfile refid="_bx_memory_join_8hpp">BxMemoryJoin.hpp</innerfile>
+    <innerfile refid="_bx_memory_pool_8hpp">BxMemoryPool.hpp</innerfile>
+    <innerfile refid="_bx_scene_8cpp">BxScene.cpp</innerfile>
+    <innerfile refid="_bx_scene_8hpp">BxScene.hpp</innerfile>
+    <innerfile refid="_bx_scene_object_8hpp">BxSceneObject.hpp</innerfile>
+    <innerfile refid="_bx_string_8hpp">BxString.hpp</innerfile>
+    <innerfile refid="_bx_type_8hpp">BxType.hpp</innerfile>
+    <innerfile refid="_bx_util_8hpp">BxUtil.hpp</innerfile>
+    <innerfile refid="_bx_var_8hpp">BxVar.hpp</innerfile>
+    <innerfile refid="_bx_var_map_8hpp">BxVarMap.hpp</innerfile>
+    <innerfile refid="_bx_var_vector_8hpp">BxVarVector.hpp</innerfile>
+    <innerfile refid="_bx_web_content_8hpp">BxWebContent.hpp</innerfile>
+    <innerfile refid="_bx_xml_8hpp">BxXml.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/"/>
+  </compounddef>
+</doxygen>

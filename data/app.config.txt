@@ -1,0 +1,7 @@
+[s3e]
+MemSizeBx               <Integer>  BxMemory pooling size
+SurfaceWidthBx          <Integer>  Fixed surface width value(Default : no use)
+SurfaceHeightBx         <Integer>  Fixed surface height value(Default : no use)
+TextureMarginBx         <Integer>  Texture margin value for loading(Default : 0)
+TextureInterpolationBx  <0 or 1>   Texture interpolation flag for loading(Default : 0)
+SoundCacheSizeBx        <Integer>  Sound Autoload Cache Pool(Default : no use)

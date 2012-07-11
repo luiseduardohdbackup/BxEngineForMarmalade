@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="class_bx_memory_join_1_1_node" kind="class" prot="private">
+    <compoundname>BxMemoryJoin::Node</compoundname>
+    <derivedcompoundref refid="class_bx_memory_join_1_1_node_data" prot="public" virt="non-virtual">BxMemoryJoin&lt; MEMORYJOIN_ID &gt;::NodeData&lt; TYPE &gt;</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bx_memory_join_1_1_node_1a0bd3297ee59cc2ed20cb53d524ccc0dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BxMemoryJoin&lt; MEMORYJOIN_ID &gt;::Node::Node</definition>
+        <argsstring>()</argsstring>
+        <name>Node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" line="48" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_memory_join_1_1_node_1a4515370c27de3ecd33aa8b07ae80c289" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual BxMemoryJoin&lt; MEMORYJOIN_ID &gt;::Node::~Node</definition>
+        <argsstring>()</argsstring>
+        <name>~Node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" line="49" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" bodystart="49" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="59">
+        <label>BxMemoryJoin&lt; MEMORYJOIN_ID &gt;::NodeData&lt; TYPE &gt;</label>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>BxMemoryJoin&lt; MEMORYJOIN_ID &gt;::Node</label>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" line="46" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" bodystart="45" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_bx_memory_join_1_1_node_1a0bd3297ee59cc2ed20cb53d524ccc0dc" prot="public" virt="non-virtual"><scope>BxMemoryJoin::Node</scope><name>Node</name></member>
+      <member refid="class_bx_memory_join_1_1_node_1a4515370c27de3ecd33aa8b07ae80c289" prot="public" virt="virtual"><scope>BxMemoryJoin::Node</scope><name>~Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

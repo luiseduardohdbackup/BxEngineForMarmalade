@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="class_bx_var_1_1_var_leaf" kind="class" prot="private">
+    <compoundname>BxVar::VarLeaf</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BxVar&lt; TYPE &gt;::VarNode</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_bx_var_1_1_var_leaf_1acb905705514d44cc81641313f82e67fd" prot="public" static="no">
+        <name>Parameter</name>
+        <enumvalue id="class_bx_var_1_1_var_leaf_1acb905705514d44cc81641313f82e67fda8a8bfb42f53b103c50953d838f348ba5" prot="public">
+          <name>DoRanging</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_var_1_1_var_leaf_1acb905705514d44cc81641313f82e67fda3a67bd6580f2831fa933f42e2dc55d4f" prot="public">
+          <name>NoRanging</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="318" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="318" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_bx_var_1_1_var_leaf_1a1012d1bbfc7f2c74184c18543f08c377" prot="public" static="no">
+        <name>Action</name>
+        <enumvalue id="class_bx_var_1_1_var_leaf_1a1012d1bbfc7f2c74184c18543f08c377a2e751110854693e89a92051c6e754af1" prot="public">
+          <name>NoAction</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_var_1_1_var_leaf_1a1012d1bbfc7f2c74184c18543f08c377a29cf1ea899fd3f71e73353bb4cb50e7f" prot="public">
+          <name>DeleteMe</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="319" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="319" bodyend="319"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bx_var_1_1_var_leaf_1a8c1192ea07b06962fcdbe1349ada7af1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BxVar&lt; TYPE &gt;::VarLeaf::Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="320" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bx_var_1_1_var_leaf_1a1a8d7c7faef928e26ac7e9609d809eaa" prot="public" static="no" mutable="no">
+        <type>VarList *</type>
+        <definition>VarList* BxVar&lt; TYPE &gt;::VarLeaf::List</definition>
+        <argsstring></argsstring>
+        <name>List</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="321" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bx_var_1_1_var_leaf_1a5475295ad5541bcfa581fc0b97fb31b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BxVar&lt; TYPE &gt;::VarLeaf::VarLeaf</definition>
+        <argsstring>(VarPath *parent, int count, VarList *list)</argsstring>
+        <name>VarLeaf</name>
+        <param>
+          <type>VarPath *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>VarList *</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="322" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="322" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_var_1_1_var_leaf_1a8d3f065ebfb038b85fafe2e8c56734a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BxVar&lt; TYPE &gt;::VarLeaf::~VarLeaf</definition>
+        <argsstring>()</argsstring>
+        <name>~VarLeaf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="323" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="323" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_var_1_1_var_leaf_1af98cd2107f046430aa482fd54de91970" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VarLeaf *</type>
+        <definition>VarLeaf* BxVar&lt; TYPE &gt;::VarLeaf::Init</definition>
+        <argsstring>(VarPath *parent, int count, VarList *list)</argsstring>
+        <name>Init</name>
+        <param>
+          <type>VarPath *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>VarList *</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="324" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="324" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_var_1_1_var_leaf_1a57afeb5a95031a2d6c8bf4bd0c5fbee1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VarLeaf *</type>
+        <definition>VarLeaf* BxVar&lt; TYPE &gt;::VarLeaf::Quit</definition>
+        <argsstring>()</argsstring>
+        <name>Quit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="325" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="325" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_var_1_1_var_leaf_1ad6768ec9e2fdf6e168c658f280ecc2e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VarList *</type>
+        <definition>VarList* BxVar&lt; TYPE &gt;::VarLeaf::GetList</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetList</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="328" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="327" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_var_1_1_var_leaf_1a203fe06bacbd1a4ad42c1f808d8958a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BxVar&lt; TYPE &gt;::VarLeaf::SubBlankRange</definition>
+        <argsstring>(int index)</argsstring>
+        <name>SubBlankRange</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="340" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="339" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_var_1_1_var_leaf_1a39b34c047310a29c4ef5f94903b93115" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TYPE &amp;</type>
+        <definition>TYPE&amp; BxVar&lt; TYPE &gt;::VarLeaf::AddList</definition>
+        <argsstring>(const int index, TYPE *data, const Parameter option)</argsstring>
+        <name>AddList</name>
+        <param>
+          <type>const int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>TYPE *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const Parameter</type>
+          <declname>option</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="357" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="356" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_var_1_1_var_leaf_1a4b7af0d5cab21d87aeba90da38fd8631" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Action</type>
+        <definition>Action BxVar&lt; TYPE &gt;::VarLeaf::SubList</definition>
+        <argsstring>(VarList *list, const Parameter option)</argsstring>
+        <name>SubList</name>
+        <param>
+          <type>VarList *</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>const Parameter</type>
+          <declname>option</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="393" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="392" bodyend="420"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_bx_var_1_1_var_leaf_1aef7cc47d7c4cb308e90490129be91b0d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BxVar&lt; TYPE &gt;::VarLeaf::AddPath</definition>
+        <argsstring>()</argsstring>
+        <name>AddPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="424" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="423" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_var_1_1_var_leaf_1a75355e58999215f1a1bf6f1817ec79d1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Action</type>
+        <definition>Action BxVar&lt; TYPE &gt;::VarLeaf::SubPath</definition>
+        <argsstring>()</argsstring>
+        <name>SubPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="437" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="436" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_var_1_1_var_leaf_1a149d41445ae7b8def5206c9414e5c491" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int BxVar&lt; TYPE &gt;::VarLeaf::GetRange</definition>
+        <argsstring>()</argsstring>
+        <name>GetRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="463" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="462" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_var_1_1_var_leaf_1a6a758e55c29bcc803c1eb90c0c17a7b0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BxVar&lt; TYPE &gt;::VarLeaf::Ranging</definition>
+        <argsstring>(const int adjust)</argsstring>
+        <name>Ranging</name>
+        <param>
+          <type>const int</type>
+          <declname>adjust</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="478" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="477" bodyend="487"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="94">
+        <label>BxVar&lt; TYPE &gt;::VarLeaf</label>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>BxVar&lt; TYPE &gt;::VarNode</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="96">
+        <label>BxVar&lt; TYPE &gt;::VarLeaf</label>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+        <childnode refid="99" relation="usage">
+          <edgelabel>List</edgelabel>
+        </childnode>
+      </node>
+      <node id="97">
+        <label>BxVar&lt; TYPE &gt;::VarNode</label>
+        <childnode refid="98" relation="usage">
+          <edgelabel>Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="98">
+        <label>BxVar&lt; TYPE &gt;::VarPath</label>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+        <childnode refid="97" relation="usage">
+          <edgelabel>Child</edgelabel>
+        </childnode>
+      </node>
+      <node id="99">
+        <label>BxVar&lt; TYPE &gt;::VarList</label>
+        <childnode refid="99" relation="usage">
+          <edgelabel>Next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="316" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="315" bodyend="488"/>
+    <listofallmembers>
+      <member refid="class_bx_var_1_1_var_leaf_1a1012d1bbfc7f2c74184c18543f08c377" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>Action</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1a39b34c047310a29c4ef5f94903b93115" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>AddList</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1aef7cc47d7c4cb308e90490129be91b0d" prot="protected" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>AddPath</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1a8c1192ea07b06962fcdbe1349ada7af1" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>Count</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1a1012d1bbfc7f2c74184c18543f08c377a29cf1ea899fd3f71e73353bb4cb50e7f" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>DeleteMe</name></member>
+      <member refid="class_bx_var_1_1_var_node_1a01a3b3a102e7e15446e0ff45b089556b" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>DeleteNode</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1acb905705514d44cc81641313f82e67fda8a8bfb42f53b103c50953d838f348ba5" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>DoRanging</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1ad6768ec9e2fdf6e168c658f280ecc2e3" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>GetList</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1a149d41445ae7b8def5206c9414e5c491" prot="protected" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>GetRange</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1af98cd2107f046430aa482fd54de91970" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>Init</name></member>
+      <member refid="class_bx_var_1_1_var_node_1a7ac17a5ce8eb4124edc3fc2fe3f58706a9e095dc5ddcddd3256c4e79facbca73e" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>LEAF</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1a1a8d7c7faef928e26ac7e9609d809eaa" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>List</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1a1012d1bbfc7f2c74184c18543f08c377a2e751110854693e89a92051c6e754af1" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>NoAction</name></member>
+      <member refid="class_bx_var_1_1_var_node_1a7ac17a5ce8eb4124edc3fc2fe3f58706" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>NodeType</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1acb905705514d44cc81641313f82e67fda3a67bd6580f2831fa933f42e2dc55d4f" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>NoRanging</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1acb905705514d44cc81641313f82e67fd" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>Parameter</name></member>
+      <member refid="class_bx_var_1_1_var_node_1a61e3087ef369e464de6753ba85cd791d" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>Parent</name></member>
+      <member refid="class_bx_var_1_1_var_node_1a7ac17a5ce8eb4124edc3fc2fe3f58706a3bd538903134fadb9c2139dffea4af86" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>PATH</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1a57afeb5a95031a2d6c8bf4bd0c5fbee1" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>Quit</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1a6a758e55c29bcc803c1eb90c0c17a7b0" prot="protected" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>Ranging</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1a203fe06bacbd1a4ad42c1f808d8958a5" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>SubBlankRange</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1a4b7af0d5cab21d87aeba90da38fd8631" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>SubList</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1a75355e58999215f1a1bf6f1817ec79d1" prot="protected" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>SubPath</name></member>
+      <member refid="class_bx_var_1_1_var_node_1aeb560cb98f34f92f68d314451d385a1b" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>Type</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1a5475295ad5541bcfa581fc0b97fb31b6" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>VarLeaf</name></member>
+      <member refid="class_bx_var_1_1_var_leaf_1a8d3f065ebfb038b85fafe2e8c56734a2" prot="public" virt="non-virtual"><scope>BxVar::VarLeaf</scope><name>~VarLeaf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

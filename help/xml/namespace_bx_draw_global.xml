@@ -1,0 +1,1565 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="namespace_bx_draw_global" kind="namespace">
+    <compoundname>BxDrawGlobal</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_bx_draw_global_1ab4ffc772a3f20e7fad41aac4f67bf083" prot="public" static="no">
+        <name>option</name>
+        <enumvalue id="namespace_bx_draw_global_1ab4ffc772a3f20e7fad41aac4f67bf083ad5e94a47d68f0e1bacfd1657f9cebbb5" prot="public">
+          <name>FILL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_bx_draw_global_1ab4ffc772a3f20e7fad41aac4f67bf083ad777f222a80ca905d9af98ff2cb64822" prot="public">
+          <name>DRAW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="88" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="88" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_bx_draw_global_1ae284872147dbce083bbdddfbcf6cf057" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structrect" kindref="compound">rect</ref></type>
+        <definition>static const rect BxDrawGlobal::XYXY</definition>
+        <argsstring>(int x1, int y1, int x2, int y2)</argsstring>
+        <name>XYXY</name>
+        <param>
+          <type>int</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y2</declname>
+        </param>
+        <briefdescription>
+<para>위치제작 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 위치X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 위치Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>위치</para></simplesect>
+크기제작 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 너비 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 높이 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>크기</para></simplesect>
+영역제작 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 시작위치X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 시작위치Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 너비 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 높이 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>영역</para></simplesect>
+영역제작 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 시작위치X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 시작위치Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 끝위치X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 끝위치Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>영역 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="148" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="147" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1ad15e4e6ddd48750b45d1262cad126e8d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structrect" kindref="compound">rect</ref></type>
+        <definition>static const rect BxDrawGlobal::XYR</definition>
+        <argsstring>(int x, int y, int r)</argsstring>
+        <name>XYR</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>중점식 영역제작 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 중심위치X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 중심위치Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 반지름 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>영역 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="163" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="162" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1aaad2b306eb1a3cdb820f97ec41543e96" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structrect" kindref="compound">rect</ref></type>
+        <definition>static const rect BxDrawGlobal::XYRR</definition>
+        <argsstring>(int x, int y, int wr, int hr)</argsstring>
+        <name>XYRR</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>wr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hr</declname>
+        </param>
+        <briefdescription>
+<para>중점식 영역제작 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 중심위치X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 중심위치Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>wr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 가로 반지름 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 세로 반지름 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>영역 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="179" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="178" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a64389bd5a1f1f7affa88ff54ff45b210" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structpoints" kindref="compound">points</ref> &amp;</type>
+        <definition>static const points&amp; BxDrawGlobal::XYS</definition>
+        <argsstring>(uint count, int x, int y,...)</argsstring>
+        <name>XYS</name>
+        <param>
+          <type>uint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+<para>가변인자식 다각영역제작 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 꼭지점의 수량 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 꼭지점X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 꼭지점Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>다각영역 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="194" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="193" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a376a0fbfac5b71f4321dd6c8e3ccb26a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structvertexs" kindref="compound">vertexs</ref> &amp;</type>
+        <definition>static const vertexs&amp; BxDrawGlobal::XYZS</definition>
+        <argsstring>(uint count, int x, int y, int z,...)</argsstring>
+        <name>XYZS</name>
+        <param>
+          <type>uint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+<para>가변인자식 3D다각영역제작 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 꼭지점의 수량 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 꼭지점X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 꼭지점Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 꼭지점Z </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>3D다각영역 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="219" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="218" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1ad0b9b4235434c42dbaaff250b70589a1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structpoints" kindref="compound">points</ref> &amp;</type>
+        <definition>static const points&amp; BxDrawGlobal::XYARRAY</definition>
+        <argsstring>(uint count, int *xy)</argsstring>
+        <name>XYARRAY</name>
+        <param>
+          <type>uint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>xy</declname>
+        </param>
+        <briefdescription>
+<para>배열식 다각영역제작 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 꼭지점의 수량 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 꼭지점배열 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>다각영역 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="244" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="243" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a962033425c873ce7caa3eafc54426b1c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structvertexs" kindref="compound">vertexs</ref> &amp;</type>
+        <definition>static const vertexs&amp; BxDrawGlobal::XYZARRAY</definition>
+        <argsstring>(uint count, int *xyz)</argsstring>
+        <name>XYZARRAY</name>
+        <param>
+          <type>uint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+<para>배열식 3D다각영역제작 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 꼭지점의 수량 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 꼭지점배열 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>3D다각영역 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="262" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="261" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a6f404b715a4fced1ab3c989761f96d5f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const color_x888</type>
+        <definition>static const color_x888 BxDrawGlobal::RGB</definition>
+        <argsstring>(const byte r, const byte g, const byte b)</argsstring>
+        <name>RGB</name>
+        <param>
+          <type>const byte</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>const byte</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>const byte</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>32비트 색상제작 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 빨강 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 초록 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 파랑 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="282" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="281" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a697f3baeaa375440107c563e28404f32" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const color_565</type>
+        <definition>static const color_565 BxDrawGlobal::RGB16</definition>
+        <argsstring>(const byte r, const byte g, const byte b)</argsstring>
+        <name>RGB16</name>
+        <param>
+          <type>const byte</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>const byte</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>const byte</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>16비트 색상제작 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 빨강 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 초록 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 파랑 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="294" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="293" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a3af8af57551ff51e3584484517014b4c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const pixel_dst</type>
+        <definition>static const pixel_dst BxDrawGlobal::SpriteBlending</definition>
+        <argsstring>(const pixel_dst dst, const pixel_src src, const byte *table)</argsstring>
+        <name>SpriteBlending</name>
+        <param>
+          <type>const pixel_dst</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>const pixel_src</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>const byte *</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+<para>스프라이트 블렌딩 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 바탕 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 투명색이 있는 소스 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>table</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 선계산 테이블 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>계산된 바탕색 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="306" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="305" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a2d833b80db8cc513b3a0dc3bb5cd0782" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const pixel_dst</type>
+        <definition>static const pixel_dst BxDrawGlobal::AlphaBlending</definition>
+        <argsstring>(const pixel_dst dst, const pixel_src src, const byte *table)</argsstring>
+        <name>AlphaBlending</name>
+        <param>
+          <type>const pixel_dst</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>const pixel_src</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>const byte *</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+<para>알파 블렌딩 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 바탕 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 투명도가 있는 소스 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>table</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 선계산 테이블 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>계산된 바탕색 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="326" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="325" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a5626a4423f49d2a3c43d1a2b46180064" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const color_m555_a444</type>
+        <definition>static const color_m555_a444 BxDrawGlobal::OpacityBitByM555A444</definition>
+        <argsstring>(const color_m555_a444 color)</argsstring>
+        <name>OpacityBitByM555A444</name>
+        <param>
+          <type>const color_m555_a444</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>불투명도값 추출(M555_A444) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 원본색상 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>불투명도 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="344" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="343" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a2a641bcd3364c262e79089d4eaaf2f80" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const color_a888</type>
+        <definition>static const color_a888 BxDrawGlobal::OpacityBitByA888</definition>
+        <argsstring>(const color_a888 color)</argsstring>
+        <name>OpacityBitByA888</name>
+        <param>
+          <type>const color_a888</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>불투명도값 추출(A888) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 원본색상 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>불투명도 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="354" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="353" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1aed0fdc6eea4a4727834a7650ea945353" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const color_x888</type>
+        <definition>static const color_x888 BxDrawGlobal::ColorRGBToHLS</definition>
+        <argsstring>(const byte r, const byte g, const byte b)</argsstring>
+        <name>ColorRGBToHLS</name>
+        <param>
+          <type>const byte</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>const byte</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>const byte</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>색상전환(RGB→HLS) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 빨강 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 초록 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 파랑 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>HLS색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="366" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="365" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a376b7e70661a03530504bcf0c80c9c58" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const color_x888</type>
+        <definition>static const color_x888 BxDrawGlobal::ColorHLSToRGB</definition>
+        <argsstring>(const byte h, const byte l, const byte s)</argsstring>
+        <name>ColorHLSToRGB</name>
+        <param>
+          <type>const byte</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>const byte</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const byte</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>색상전환(HLS→RGB) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 색조 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>l</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 휘도 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 채도 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>RGB색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="393" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="392" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a3abdbd52000a7c19b9d768ecf271faaa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const color_565</type>
+        <definition>static const color_565 BxDrawGlobal::ColorM555A444To565</definition>
+        <argsstring>(const color_m555_a444 color)</argsstring>
+        <name>ColorM555A444To565</name>
+        <param>
+          <type>const color_m555_a444</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>색상전환(M555_A444→565) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 원본색상 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>결과색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="423" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="422" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a6ddc89338e2f260ae27546f3f9fcac12" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const color_a888</type>
+        <definition>static const color_a888 BxDrawGlobal::ColorM555A444ToA888</definition>
+        <argsstring>(const color_m555_a444 color)</argsstring>
+        <name>ColorM555A444ToA888</name>
+        <param>
+          <type>const color_m555_a444</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>색상전환(M555_A444→A888) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 원본색상 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>결과색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="436" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="435" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1ace2e54d6e9f621e8800cda0be12e8e8e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const color_x888</type>
+        <definition>static const color_x888 BxDrawGlobal::ColorA888ToX888</definition>
+        <argsstring>(const color_a888 color)</argsstring>
+        <name>ColorA888ToX888</name>
+        <param>
+          <type>const color_a888</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>색상전환(A888→X888) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 원본색상 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>결과색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="451" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="450" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1acdda0ad3e9387274a1fbc9aa6210b757" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const pixel_dst</type>
+        <definition>static const pixel_dst BxDrawGlobal::Color565ToNativeDst</definition>
+        <argsstring>(const color_565 color)</argsstring>
+        <name>Color565ToNativeDst</name>
+        <param>
+          <type>const color_565</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>네이티브바탕으로 색상전환(565→NativeDst) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 원본색상 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>결과색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="461" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="460" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a6ad7cb2fb717655bb122e55879f5757d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const pixel_src</type>
+        <definition>static const pixel_src BxDrawGlobal::Color565ToNativeSrc</definition>
+        <argsstring>(const color_565 color, const color_m555_a444 opacity_bit=0x8000)</argsstring>
+        <name>Color565ToNativeSrc</name>
+        <param>
+          <type>const color_565</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>const color_m555_a444</type>
+          <declname>opacity_bit</declname>
+          <defval>0x8000</defval>
+        </param>
+        <briefdescription>
+<para>네이티브소스로 색상전환(565→NativeSrc) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 원본색상 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>결과색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="477" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="476" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1acf4ac9a6456284e2939026cba3c4fc4e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const pixel_dst</type>
+        <definition>static const pixel_dst BxDrawGlobal::ColorM555A444ToNativeDst</definition>
+        <argsstring>(const color_m555_a444 color)</argsstring>
+        <name>ColorM555A444ToNativeDst</name>
+        <param>
+          <type>const color_m555_a444</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>네이티브바탕으로 색상전환(M555_A444→NativeDst) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 원본색상 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>결과색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="496" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="495" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a47cfb9289b6e1376c1c6667a080e0d31" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const pixel_src</type>
+        <definition>static const pixel_src BxDrawGlobal::ColorM555A444ToNativeSrc</definition>
+        <argsstring>(const color_m555_a444 color)</argsstring>
+        <name>ColorM555A444ToNativeSrc</name>
+        <param>
+          <type>const color_m555_a444</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>네이티브소스로 색상전환(M555_A444→NativeSrc) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 원본색상 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>결과색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="506" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="505" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a4c30e61d070179051cba5452644d2b87" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const pixel_dst</type>
+        <definition>static const pixel_dst BxDrawGlobal::ColorX888ToNativeDst</definition>
+        <argsstring>(const color_x888 color)</argsstring>
+        <name>ColorX888ToNativeDst</name>
+        <param>
+          <type>const color_x888</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>네이티브바탕으로 색상전환(X888→NativeDst) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 원본색상 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>결과색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="516" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="515" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a3dc452d155a051598cf0038062a2a7d8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const pixel_src</type>
+        <definition>static const pixel_src BxDrawGlobal::ColorX888ToNativeSrc</definition>
+        <argsstring>(const color_x888 color, const color_a888 opacity_bit=0xFF000000)</argsstring>
+        <name>ColorX888ToNativeSrc</name>
+        <param>
+          <type>const color_x888</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>const color_a888</type>
+          <declname>opacity_bit</declname>
+          <defval>0xFF000000</defval>
+        </param>
+        <briefdescription>
+<para>네이티브소스로 색상전환(X888→NativeSrc) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 원본색상 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>결과색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="530" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="529" bodyend="538"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1aa908d2a442879cd385e3f2028cf23d30" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const pixel_dst</type>
+        <definition>static const pixel_dst BxDrawGlobal::ColorA888ToNativeDst</definition>
+        <argsstring>(const color_a888 color)</argsstring>
+        <name>ColorA888ToNativeDst</name>
+        <param>
+          <type>const color_a888</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>네이티브바탕으로 색상전환(A888→NativeDst) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 원본색상 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>결과색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="546" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="545" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1afa4322bd48d4974dd6f9f8cf7b9e44bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const pixel_src</type>
+        <definition>static const pixel_src BxDrawGlobal::ColorA888ToNativeSrc</definition>
+        <argsstring>(const color_a888 color)</argsstring>
+        <name>ColorA888ToNativeSrc</name>
+        <param>
+          <type>const color_a888</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>네이티브소스로 색상전환(A888→NativeSrc) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 원본색상 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>결과색상 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="556" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="555" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1ac41031f42d66b28fe243c2a14d31106f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>stack</type>
+        <definition>static stack BxDrawGlobal::CLIP</definition>
+        <argsstring>(rect r, int hx=0, int hy=0)</argsstring>
+        <name>CLIP</name>
+        <param>
+          <type><ref refid="structrect" kindref="compound">rect</ref></type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hx</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hy</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>스타일-클리핑 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 영역 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 영역기준 중점X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 영역기준 중점Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>스택처리수량(무조건 1), 여러가지 스타일을 +로 복합사용하기 위함 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="922" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="921" bodyend="941"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a4e1515c7845d3f13cc0c6cc47940c209" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>stack</type>
+        <definition>static stack BxDrawGlobal::HOTSPOT</definition>
+        <argsstring>(int hx, int hy)</argsstring>
+        <name>HOTSPOT</name>
+        <param>
+          <type>int</type>
+          <declname>hx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hy</declname>
+        </param>
+        <briefdescription>
+<para>스타일-중점이동 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 중점X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 중점Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>스택처리수량(무조건 1), 여러가지 스타일을 +로 복합사용하기 위함 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="950" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="949" bodyend="952"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a4cb0b256ca23670eb23ac466be2fcb42" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>stack</type>
+        <definition>static stack BxDrawGlobal::MASK</definition>
+        <argsstring>(maskoperate operate=maskoperate_default, maskflag flag=maskflag_default)</argsstring>
+        <name>MASK</name>
+        <param>
+          <type>maskoperate</type>
+          <declname>operate</declname>
+          <defval>maskoperate_default</defval>
+        </param>
+        <param>
+          <type>maskflag</type>
+          <declname>flag</declname>
+          <defval>maskflag_default</defval>
+        </param>
+        <briefdescription>
+<para>스타일-마스크 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>operate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 출력여부를 결정할 마스크값 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 출력후 마스크를 기록하는 방법 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>스택처리수량(무조건 1), 여러가지 스타일을 +로 복합사용하기 위함 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="961" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="960" bodyend="970"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1ad1bbc9564447e6ccd1affff89fb3724f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>stack</type>
+        <definition>static stack BxDrawGlobal::ROTATE</definition>
+        <argsstring>(int angle1024, bool doFlip=false)</argsstring>
+        <name>ROTATE</name>
+        <param>
+          <type>int</type>
+          <declname>angle1024</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doFlip</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>스타일-회전 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angle1024</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 1024도기준 회전값 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>doFlip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 좌우대칭여부(회전보다 먼저 적용) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>스택처리수량(무조건 1), 여러가지 스타일을 +로 복합사용하기 위함 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="979" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="978" bodyend="990"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a4d55b81dfe06436f9b590d64c3ed2df5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>stack</type>
+        <definition>static stack BxDrawGlobal::SCALE</definition>
+        <argsstring>(fint hor, fint ver)</argsstring>
+        <name>SCALE</name>
+        <param>
+          <type>fint</type>
+          <declname>hor</declname>
+        </param>
+        <param>
+          <type>fint</type>
+          <declname>ver</declname>
+        </param>
+        <briefdescription>
+<para>스타일-확대율(fint) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 수평 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ver</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 수직 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>스택처리수량(무조건 1), 여러가지 스타일을 +로 복합사용하기 위함 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="999" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="998" bodyend="1008"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a3fd91458562587f09b8be59753690e01" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>stack</type>
+        <definition>static stack BxDrawGlobal::SCALE</definition>
+        <argsstring>(double hor, double ver)</argsstring>
+        <name>SCALE</name>
+        <param>
+          <type>double</type>
+          <declname>hor</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ver</declname>
+        </param>
+        <briefdescription>
+<para>스타일-확대율(double) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 수평 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ver</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 수직 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>스택처리수량(무조건 1), 여러가지 스타일을 +로 복합사용하기 위함 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="1017" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="1016" bodyend="1019"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a995e3167e7c9bf9892c0ffb3261120c2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>stack</type>
+        <definition>static stack BxDrawGlobal::COLOR</definition>
+        <argsstring>(byte r, byte g, byte b, uint rate=100)</argsstring>
+        <name>COLOR</name>
+        <param>
+          <type>byte</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>rate</declname>
+          <defval>100</defval>
+        </param>
+        <briefdescription>
+<para>스타일-컬러링(byte) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 빨강 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 초록 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 파랑 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 이전 컬러링과 혼합을 위한 영향력값 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>스택처리수량(무조건 1), 여러가지 스타일을 +로 복합사용하기 위함 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="1030" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="1029" bodyend="1042"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1aedaf398a979acea1bafba856d31b78b6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>stack</type>
+        <definition>static stack BxDrawGlobal::COLOR</definition>
+        <argsstring>(color_x888 rgb, uint rate=100)</argsstring>
+        <name>COLOR</name>
+        <param>
+          <type>color_x888</type>
+          <declname>rgb</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>rate</declname>
+          <defval>100</defval>
+        </param>
+        <briefdescription>
+<para>스타일-컬러링(color_x888) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rgb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 색상 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 이전 컬러링과 혼합을 위한 영향력값 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>스택처리수량(무조건 1), 여러가지 스타일을 +로 복합사용하기 위함 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="1051" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="1050" bodyend="1053"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a1b0e942d04e48b394fc70d30c3897cb9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>stack</type>
+        <definition>static stack BxDrawGlobal::OPACITY</definition>
+        <argsstring>(byte opa)</argsstring>
+        <name>OPACITY</name>
+        <param>
+          <type>byte</type>
+          <declname>opa</declname>
+        </param>
+        <briefdescription>
+<para>스타일-불투명도 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>opa</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 짙은 정도 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>스택처리수량(무조건 1), 여러가지 스타일을 +로 복합사용하기 위함 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="1074" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="1073" bodyend="1083"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a1a3987e641d7c7068a767ca9920845b9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>stack</type>
+        <definition>static stack BxDrawGlobal::BLEND</definition>
+        <argsstring>(drawblend blend)</argsstring>
+        <name>BLEND</name>
+        <param>
+          <type>drawblend</type>
+          <declname>blend</declname>
+        </param>
+        <briefdescription>
+<para>스타일-블렌딩 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>blend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 블렌딩메소드(20가지) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>스택처리수량(무조건 1), 여러가지 스타일을 +로 복합사용하기 위함 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="1091" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="1090" bodyend="1103"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1a34fac7d49bf9583a466d8f995993aefc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>stack</type>
+        <definition>static stack BxDrawGlobal::FORM</definition>
+        <argsstring>(BxDrawForm *form=null, rect r=XYWH(0, 0, size::max, size::max))</argsstring>
+        <name>FORM</name>
+        <param>
+          <type><ref refid="class_bx_draw_form" kindref="compound">BxDrawForm</ref> *</type>
+          <declname>form</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="structrect" kindref="compound">rect</ref></type>
+          <declname>r</declname>
+          <defval>XYWH(0, 0, size::max, size::max)</defval>
+        </param>
+        <briefdescription>
+<para>스타일-채우기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>form</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: From객체(BxDrawForm상속으로 사용자From 제작가능) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 로드할 구역 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>스택처리수량(무조건 1), 여러가지 스타일을 +로 복합사용하기 위함 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="1112" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="1111" bodyend="1121"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bx_draw_global_1af4d76a41a433f0e3927a602b551e2a39" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>stack</type>
+        <definition>static stack BxDrawGlobal::MOVE3D</definition>
+        <argsstring>(int x, int y, int z)</argsstring>
+        <name>MOVE3D</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>스타일-3D모델이동 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 이동X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 이동Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 이동Z </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>스택처리수량(무조건 1), 여러가지 스타일을 +로 복합사용하기 위함 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="1131" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" bodystart="1130" bodyend="1141"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>BxDraw관련 글로벌함수 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxDraw.hpp" line="87"/>
+  </compounddef>
+</doxygen>

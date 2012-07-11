@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="structsysevent" kind="struct" prot="public">
+    <compoundname>sysevent</compoundname>
+    <includes refid="_bx_type_8hpp" local="no">BxType.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsysevent_1a66c1eafb65022fe54cf53d354b0a6668" prot="public" static="no" mutable="no">
+        <type>syseventtype</type>
+        <definition>syseventtype sysevent::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="213" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1a83f89fd0d76e9033d7274ff4d4e9f469" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint sysevent::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="214" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1a1ddaa22d540c6720b285730fb4f8cd5e" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint sysevent::h</definition>
+        <argsstring></argsstring>
+        <name>h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="214" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1a0440295ae8feaa35e11c67f821830b62" prot="public" static="no" mutable="no">
+        <type>struct sysevent::@6</type>
+        <definition>struct sysevent::@6  sysevent::init</definition>
+        <argsstring></argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="214"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1a40823d1f2c14a91d74cf808dde9b29d0" prot="public" static="no" mutable="no">
+        <type>struct sysevent::@7</type>
+        <definition>struct sysevent::@7  sysevent::quit</definition>
+        <argsstring></argsstring>
+        <name>quit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="215"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1aaa18971bd5066fe921acae248e9dd438" prot="public" static="no" mutable="no">
+        <type>struct sysevent::@8</type>
+        <definition>struct sysevent::@8  sysevent::resize</definition>
+        <argsstring></argsstring>
+        <name>resize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="216"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1a0356b480678cbe74f473d6fa2d89ba30" prot="public" static="no" mutable="no">
+        <type>syskeytype</type>
+        <definition>syskeytype sysevent::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="217" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1aa14e38065d173090b3afefd5be904bb8" prot="public" static="no" mutable="no">
+        <type>keykind</type>
+        <definition>keykind sysevent::code</definition>
+        <argsstring></argsstring>
+        <name>code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="217" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1a6ceb885519a8a2e73d53da8fe3ec9b27" prot="public" static="no" mutable="no">
+        <type>struct sysevent::@9</type>
+        <definition>struct sysevent::@9  sysevent::key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="217"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1abc640563d2bafb636c986dd4a7118a49" prot="public" static="no" mutable="no">
+        <type>systouchtype</type>
+        <definition>systouchtype sysevent::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="218" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1a074476c500099505a4907760274bd0a6" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint sysevent::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="218" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1a5b63f5d2bf488002cdbeb246fdd85aa2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sysevent::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="218" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1a85854ea1a6cef851c99b01b1323f3cbd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sysevent::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="218" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1a3cd59073c1108bac4dd56029f16d0bb2" prot="public" static="no" mutable="no">
+        <type>struct sysevent::@10</type>
+        <definition>struct sysevent::@10  sysevent::touch</definition>
+        <argsstring></argsstring>
+        <name>touch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="218"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1a91f81aa28238f22af1d41d6412a0403b" prot="public" static="no" mutable="no">
+        <type>sysbuttontype</type>
+        <definition>sysbuttontype sysevent::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="219" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1a30ced2766629cf099b82adba6b89e67a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string sysevent::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="219" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1a6a85bcf3889701378ae6522c2360e0a2" prot="public" static="no" mutable="no">
+        <type><ref refid="structrect" kindref="compound">rect</ref></type>
+        <definition>rect sysevent::field</definition>
+        <argsstring></argsstring>
+        <name>field</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="219" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsysevent_1aab70a7d3ed67f8d0ec4515a2a0bf4ab5" prot="public" static="no" mutable="no">
+        <type>struct sysevent::@11</type>
+        <definition>struct sysevent::@11  sysevent::button</definition>
+        <argsstring></argsstring>
+        <name>button</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="219"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>OnEvent()의 이벤트파라미터 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="87">
+        <label>rect</label>
+        <link refid="structrect"/>
+      </node>
+      <node id="86">
+        <label>sysevent</label>
+        <link refid="structsysevent"/>
+        <childnode refid="87" relation="usage">
+          <edgelabel>field</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="212" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="211" bodyend="220"/>
+    <listofallmembers>
+      <member refid="structsysevent_1aab70a7d3ed67f8d0ec4515a2a0bf4ab5" prot="public" virt="non-virtual"><scope>sysevent</scope><name>button</name></member>
+      <member refid="structsysevent_1aa14e38065d173090b3afefd5be904bb8" prot="public" virt="non-virtual"><scope>sysevent</scope><name>code</name></member>
+      <member refid="structsysevent_1a6a85bcf3889701378ae6522c2360e0a2" prot="public" virt="non-virtual"><scope>sysevent</scope><name>field</name></member>
+      <member refid="structsysevent_1a1ddaa22d540c6720b285730fb4f8cd5e" prot="public" virt="non-virtual"><scope>sysevent</scope><name>h</name></member>
+      <member refid="structsysevent_1a074476c500099505a4907760274bd0a6" prot="public" virt="non-virtual"><scope>sysevent</scope><name>id</name></member>
+      <member refid="structsysevent_1a0440295ae8feaa35e11c67f821830b62" prot="public" virt="non-virtual"><scope>sysevent</scope><name>init</name></member>
+      <member refid="structsysevent_1a6ceb885519a8a2e73d53da8fe3ec9b27" prot="public" virt="non-virtual"><scope>sysevent</scope><name>key</name></member>
+      <member refid="structsysevent_1a30ced2766629cf099b82adba6b89e67a" prot="public" virt="non-virtual"><scope>sysevent</scope><name>name</name></member>
+      <member refid="structsysevent_1a40823d1f2c14a91d74cf808dde9b29d0" prot="public" virt="non-virtual"><scope>sysevent</scope><name>quit</name></member>
+      <member refid="structsysevent_1aaa18971bd5066fe921acae248e9dd438" prot="public" virt="non-virtual"><scope>sysevent</scope><name>resize</name></member>
+      <member refid="structsysevent_1a3cd59073c1108bac4dd56029f16d0bb2" prot="public" virt="non-virtual"><scope>sysevent</scope><name>touch</name></member>
+      <member refid="structsysevent_1a66c1eafb65022fe54cf53d354b0a6668" prot="public" virt="non-virtual"><scope>sysevent</scope><name>type</name></member>
+      <member refid="structsysevent_1a0356b480678cbe74f473d6fa2d89ba30" prot="public" virt="non-virtual"><scope>sysevent</scope><name>type</name></member>
+      <member refid="structsysevent_1abc640563d2bafb636c986dd4a7118a49" prot="public" virt="non-virtual"><scope>sysevent</scope><name>type</name></member>
+      <member refid="structsysevent_1a91f81aa28238f22af1d41d6412a0403b" prot="public" virt="non-virtual"><scope>sysevent</scope><name>type</name></member>
+      <member refid="structsysevent_1a83f89fd0d76e9033d7274ff4d4e9f469" prot="public" virt="non-virtual"><scope>sysevent</scope><name>w</name></member>
+      <member refid="structsysevent_1a5b63f5d2bf488002cdbeb246fdd85aa2" prot="public" virt="non-virtual"><scope>sysevent</scope><name>x</name></member>
+      <member refid="structsysevent_1a85854ea1a6cef851c99b01b1323f3cbd" prot="public" virt="non-virtual"><scope>sysevent</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

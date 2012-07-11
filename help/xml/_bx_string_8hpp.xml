@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="_bx_string_8hpp" kind="file">
+    <compoundname>BxString.hpp</compoundname>
+    <includes refid="_bx_var_8hpp" local="yes">BxVar.hpp</includes>
+    <includes refid="_bx_util_8hpp" local="yes">BxUtil.hpp</includes>
+    <includedby refid="_bx_keyword_8hpp" local="yes">BxKeyword.hpp</includedby>
+    <includedby refid="_bx_scene_8hpp" local="yes">BxScene.hpp</includedby>
+    <includedby refid="_bx_xml_8hpp" local="yes">BxXml.hpp</includedby>
+    <includedby refid="_bx_web_content_8hpp" local="yes">BxWebContent.hpp</includedby>
+    <incdepgraph>
+      <node id="232">
+        <label>stdarg.h</label>
+      </node>
+      <node id="229">
+        <label>BxMemory4.hpp</label>
+        <link refid="_bx_memory4_8hpp_source"/>
+        <childnode refid="230" relation="include">
+        </childnode>
+      </node>
+      <node id="227">
+        <label>BxVar.hpp</label>
+        <link refid="_bx_var_8hpp_source"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+      </node>
+      <node id="230">
+        <label>BxCore.hpp</label>
+        <link refid="_bx_core_8hpp_source"/>
+        <childnode refid="231" relation="include">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>BxMemoryPool.hpp</label>
+        <link refid="_bx_memory_pool_8hpp_source"/>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+      </node>
+      <node id="228">
+        <label>BxMemory.hpp</label>
+        <link refid="_bx_memory_8hpp_source"/>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>BxUtil.hpp</label>
+        <link refid="_bx_util_8hpp_source"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+      </node>
+      <node id="226">
+        <label>BxString.hpp</label>
+        <link refid="BxString.hpp"/>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>BxMemoryJoin.hpp</label>
+        <link refid="_bx_memory_join_8hpp_source"/>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>BxType.hpp</label>
+        <link refid="_bx_type_8hpp_source"/>
+        <childnode refid="232" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="241">
+        <label>BxWebContent.hpp</label>
+        <link refid="_bx_web_content_8hpp_source"/>
+        <childnode refid="240" relation="include">
+        </childnode>
+      </node>
+      <node id="237">
+        <label>BxKeyword.hpp</label>
+        <link refid="_bx_keyword_8hpp_source"/>
+      </node>
+      <node id="239">
+        <label>BxXml.hpp</label>
+        <link refid="_bx_xml_8hpp_source"/>
+        <childnode refid="240" relation="include">
+        </childnode>
+      </node>
+      <node id="240">
+        <label>BxSceneObject.hpp</label>
+        <link refid="_bx_scene_object_8hpp_source"/>
+      </node>
+      <node id="236">
+        <label>BxString.hpp</label>
+        <link refid="BxString.hpp"/>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>BxScene.hpp</label>
+        <link refid="_bx_scene_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_bx_string" prot="public">BxString</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;BxVar.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;BxUtil.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_bx_string" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12" refid="class_bx_string_1a4f6530249875ce5e8975039673be1ea4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_string_1a4f6530249875ce5e8975039673be1ea4" kindref="member" tooltip="기본생성자">BxString</ref>()<sp/>{Chars.Insert(0,<sp/>Pool.Make())<sp/>=<sp/></highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_bx_string_1a89b7e3b70310a99d944e60748a9b9f2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_string_1a89b7e3b70310a99d944e60748a9b9f2f" kindref="member" tooltip="복사생성자(char)">BxString</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>RHS)<sp/>{<ref refid="class_bx_string_1aa95207728e64e496d10b395027392f77" kindref="member" tooltip="연산자 중복함수=(char)">operator=</ref>(RHS);}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_bx_string_1a819ce62aca47966ebea31617d4b7d070" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_string_1a819ce62aca47966ebea31617d4b7d070" kindref="member" tooltip="복사생성자(string)">BxString</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>RHS)<sp/>{<ref refid="class_bx_string_1aa95207728e64e496d10b395027392f77" kindref="member" tooltip="연산자 중복함수=(char)">operator=</ref>(RHS);}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_bx_string_1a4ba075e59a125b5a9e2cc09f120759fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_string_1a4ba075e59a125b5a9e2cc09f120759fb" kindref="member" tooltip="복사생성자(BxString)">BxString</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref>&amp;<sp/>RHS)<sp/>{<ref refid="class_bx_string_1aa95207728e64e496d10b395027392f77" kindref="member" tooltip="연산자 중복함수=(char)">operator=</ref>(RHS);}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="class_bx_string_1a0daec2fa643f543b5a826100f41ad5c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_string_1a4f6530249875ce5e8975039673be1ea4" kindref="member" tooltip="기본생성자">BxString</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>src,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>nouse,<sp/>...)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_list<sp/>List;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_start(List,<sp/>nouse);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string_1a17527cf4de9395d80887159fb8f82a2e" kindref="member" tooltip="vsprintf형태로 스트링 생성">FormatV</ref>(src,<sp/>List);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_end(List);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_bx_string_1a6bce07db311243e6f927e050381bc419" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1a6bce07db311243e6f927e050381bc419" kindref="member" tooltip="소멸자">~BxString</ref>()<sp/>{<ref refid="class_bx_string_1aa438d5974c167a3ed314777237575bb8" kindref="member" tooltip="내용 비우기">Empty</ref>();}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="55" refid="class_bx_string_1aa438d5974c167a3ed314777237575bb8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1aa438d5974c167a3ed314777237575bb8" kindref="member" tooltip="내용 비우기">Empty</ref>()</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>Chars.Length();<sp/>++i)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Pool.Free(Chars.Access(i));</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Chars.Reset(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="class_bx_string_1a1c1ed24074f79412ae42d81bb0c59615" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1a1c1ed24074f79412ae42d81bb0c59615" kindref="member" tooltip="길이 구하기">GetLength</ref>()</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespace_bx_util_global_1a52580a7f5dbd7722b56eab2e3167292f" kindref="member" tooltip="최대값 구하기">BxUtilGlobal::Max</ref>(0,<sp/>Chars.Length()<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="class_bx_string_1a39be18c4ef5aeff307ee9056ddcd80cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1a39be18c4ef5aeff307ee9056ddcd80cb" kindref="member" tooltip="배열접근">operator[]</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(0<sp/>&lt;=<sp/>index<sp/>&amp;&amp;<sp/>index<sp/>&lt;<sp/>Chars.Length())</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Chars[index];</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="class_bx_string_1a8ebafdeb1c7b707352a0fceb478ffdce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1a8ebafdeb1c7b707352a0fceb478ffdce" kindref="member" tooltip="형변환 중복함수(string)">operator string</ref>()</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)<sp/>Chars.GetBytes();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="class_bx_string_1a849e8d1d2fa544a102b077ac35767a50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/><ref refid="class_bx_string_1a849e8d1d2fa544a102b077ac35767a50" kindref="member" tooltip="연산자 중복함수+(char)">operator+</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>RHS)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/>NewString<sp/>=<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewString.Chars.Insert(END,<sp/>Pool.Make())<sp/>=<sp/>RHS;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NewString;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="class_bx_string_1abfd05adb59ebca8c2e5cb82dcdd25891" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/><ref refid="class_bx_string_1a849e8d1d2fa544a102b077ac35767a50" kindref="member" tooltip="연산자 중복함수+(char)">operator+</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>RHS)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/>NewString<sp/>=<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RHSLen<sp/>=<sp/><ref refid="namespace_bx_util_global_1a677b3048a42145d09849067b4d4a73ce" kindref="member" tooltip="스트링길이 구하기">BxUtilGlobal::StrLen</ref>(RHS);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>RHSLen;<sp/>++i)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewString.Chars.Insert(END,<sp/>Pool.Make())<sp/>=<sp/>RHS[i];</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NewString;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="class_bx_string_1a7e3419cee7e9d76309e95355fe70cfac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/><ref refid="class_bx_string_1a849e8d1d2fa544a102b077ac35767a50" kindref="member" tooltip="연산자 중복함수+(char)">operator+</ref>(<ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref>&amp;<sp/>RHS)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/>NewString<sp/>=<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RHSLen<sp/>=<sp/>RHS.<ref refid="class_bx_string_1a1c1ed24074f79412ae42d81bb0c59615" kindref="member" tooltip="길이 구하기">GetLength</ref>();</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>RHSLen;<sp/>++i)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewString.Chars.Insert(END,<sp/>Pool.Make())<sp/>=<sp/>RHS[i];</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NewString;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="class_bx_string_1aa95207728e64e496d10b395027392f77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref>&amp;<sp/><ref refid="class_bx_string_1aa95207728e64e496d10b395027392f77" kindref="member" tooltip="연산자 중복함수=(char)">operator=</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>RHS)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string_1aa438d5974c167a3ed314777237575bb8" kindref="member" tooltip="내용 비우기">Empty</ref>();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Chars.Insert(0,<sp/>Pool.Make())<sp/>=<sp/>RHS;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Chars.Insert(1,<sp/>Pool.Make())<sp/>=<sp/></highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="class_bx_string_1af32e1b19afa666c6d54be622338dc461" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref>&amp;<sp/><ref refid="class_bx_string_1aa95207728e64e496d10b395027392f77" kindref="member" tooltip="연산자 중복함수=(char)">operator=</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>RHS)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string_1aa438d5974c167a3ed314777237575bb8" kindref="member" tooltip="내용 비우기">Empty</ref>();</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RHSLen<sp/>=<sp/><ref refid="namespace_bx_util_global_1a677b3048a42145d09849067b4d4a73ce" kindref="member" tooltip="스트링길이 구하기">BxUtilGlobal::StrLen</ref>(RHS);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;=<sp/>RHSLen;<sp/>++i)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Chars.Insert(i,<sp/>Pool.Make())<sp/>=<sp/>RHS[i];</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="class_bx_string_1ad12e9a3cf27f763fb7df61be5d837eaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref>&amp;<sp/><ref refid="class_bx_string_1aa95207728e64e496d10b395027392f77" kindref="member" tooltip="연산자 중복함수=(char)">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref>&amp;<sp/>RHS)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string_1aa438d5974c167a3ed314777237575bb8" kindref="member" tooltip="내용 비우기">Empty</ref>();</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref>*<sp/>RHSPtr<sp/>=<sp/>(<ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref>*)<sp/>&amp;RHS;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RHSLen<sp/>=<sp/>RHSPtr-&gt;<ref refid="class_bx_string_1a1c1ed24074f79412ae42d81bb0c59615" kindref="member" tooltip="길이 구하기">GetLength</ref>();</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;=<sp/>RHSLen;<sp/>++i)</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Chars.Insert(i,<sp/>Pool.Make())<sp/>=<sp/>(*RHSPtr)[i];</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="class_bx_string_1a9e2d23f1a1bb0471e69cd7edbdf85e5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1a9e2d23f1a1bb0471e69cd7edbdf85e5e" kindref="member" tooltip="연산자 중복함수+=(char)">operator+=</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>RHS)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Chars.Insert(END,<sp/>Pool.Make())<sp/>=<sp/>RHS;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="class_bx_string_1a23a19e3623d43f5067d26c689d2714cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1a9e2d23f1a1bb0471e69cd7edbdf85e5e" kindref="member" tooltip="연산자 중복함수+=(char)">operator+=</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>RHS)</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RHSLen<sp/>=<sp/><ref refid="namespace_bx_util_global_1a677b3048a42145d09849067b4d4a73ce" kindref="member" tooltip="스트링길이 구하기">BxUtilGlobal::StrLen</ref>(RHS);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>RHSLen;<sp/>++i)</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Chars.Insert(END,<sp/>Pool.Make())<sp/>=<sp/>RHS[i];</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="class_bx_string_1a605512038ea1064dc9d65bb7117120d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1a9e2d23f1a1bb0471e69cd7edbdf85e5e" kindref="member" tooltip="연산자 중복함수+=(char)">operator+=</ref>(<ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref>&amp;<sp/>RHS)</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RHSLen<sp/>=<sp/>RHS.<ref refid="class_bx_string_1a1c1ed24074f79412ae42d81bb0c59615" kindref="member" tooltip="길이 구하기">GetLength</ref>();</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>RHSLen;<sp/>++i)</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Chars.Insert(END,<sp/>Pool.Make())<sp/>=<sp/>RHS[i];</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="class_bx_string_1af376978c49ed09b7432d03e15d03dcff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/><ref refid="class_bx_string_1af376978c49ed09b7432d03e15d03dcff" kindref="member" tooltip="좌측 복사하기">Left</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Count)</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/>NewString;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Count<sp/>=<sp/><ref refid="namespace_bx_util_global_1af6b6936a90b9f791ce6f2b2b4d15b15e" kindref="member" tooltip="최소값 구하기">BxUtilGlobal::Min</ref>(Count,<sp/>Chars.Length()<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>Count;<sp/>++i)</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewString.Chars.Insert(i,<sp/>Pool.Make())<sp/>=<sp/>Chars[i];</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewString.Chars.Insert(LAST,<sp/>Pool.Make())<sp/>=<sp/></highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NewString;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="class_bx_string_1aacc17b0b1d68f70e37f6c6253271a2e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/><ref refid="class_bx_string_1aacc17b0b1d68f70e37f6c6253271a2e0" kindref="member" tooltip="우측 복사하기">Right</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Count)</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/>NewString;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Count<sp/>=<sp/><ref refid="namespace_bx_util_global_1af6b6936a90b9f791ce6f2b2b4d15b15e" kindref="member" tooltip="최소값 구하기">BxUtilGlobal::Min</ref>(Count,<sp/>Chars.Length()<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Begin<sp/>=<sp/>Chars.Length()<sp/>-<sp/>1<sp/>-<sp/>Count;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>Count;<sp/>++i)</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewString.Chars.Insert(i,<sp/>Pool.Make())<sp/>=<sp/>Chars[Begin<sp/>+<sp/>i];</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewString.Chars.Insert(LAST,<sp/>Pool.Make())<sp/>=<sp/></highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NewString;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="class_bx_string_1a3ee00cfa51f7d302abc54a979f2fff07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1a3ee00cfa51f7d302abc54a979f2fff07" kindref="member" tooltip="글자 찾기">Find</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>Key)</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Count<sp/>=<sp/>Chars.Length()<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>Count;<sp/>++i)</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Chars[i]<sp/>==<sp/>Key)</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="class_bx_string_1ad63e9586241ff09dfcdb23af9ac844cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1ad63e9586241ff09dfcdb23af9ac844cc" kindref="member" tooltip="꺼꾸로 글자 찾기">ReverseFind</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>Key)</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Count<sp/>=<sp/>Chars.Length()<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>Count<sp/>-<sp/>1;<sp/>0<sp/>&lt;=<sp/>i;<sp/>--i)</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Chars[i]<sp/>==<sp/>Key)</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="class_bx_string_1a79578e9b83b5373ebcef438bba4c99a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>global_func<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1a79578e9b83b5373ebcef438bba4c99a9" kindref="member" tooltip="스트링 나누기">ParseDivision</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Other,<sp/><ref refid="class_bx_var" kindref="compound">BxVar&lt;BxString&gt;</ref>&amp;<sp/>Result)</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>OtherLength<sp/>=<sp/><ref refid="namespace_bx_util_global_1a677b3048a42145d09849067b4d4a73ce" kindref="member" tooltip="스트링길이 구하기">BxUtilGlobal::StrLen</ref>(Other);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(OtherLength<sp/>&amp;&amp;<sp/>Other[0]<sp/>==<sp/>Other[OtherLength<sp/>-<sp/>1])</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>OtherLength<sp/>-<sp/>1;<sp/>++i)</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Other[i]<sp/>==<sp/>Other[0])</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Result.Insert(LAST);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>Result[END]<sp/>+=<sp/>Other[i];</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="class_bx_string_1a0b8b4b404eab801b107ee0bb7d1c719d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>compare<sp/><ref refid="class_bx_string_1a0b8b4b404eab801b107ee0bb7d1c719d" kindref="member" tooltip="스트링간 비교(string)">Compare</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Other)</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MinLen<sp/>=<sp/><ref refid="namespace_bx_util_global_1af6b6936a90b9f791ce6f2b2b4d15b15e" kindref="member" tooltip="최소값 구하기">BxUtilGlobal::Min</ref>(Chars.Length(),<sp/><ref refid="namespace_bx_util_global_1a677b3048a42145d09849067b4d4a73ce" kindref="member" tooltip="스트링길이 구하기">BxUtilGlobal::StrLen</ref>(Other)<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>MinLen;<sp/>++i)</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Chars[i]<sp/>==<sp/>Other[i])<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(Chars[i]<sp/>&lt;<sp/>Other[i])?<sp/>param_is_more<sp/>:<sp/>param_is_less;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>same;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="class_bx_string_1a2792945d195374da18c577707883963b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>compare<sp/><ref refid="class_bx_string_1a0b8b4b404eab801b107ee0bb7d1c719d" kindref="member" tooltip="스트링간 비교(string)">Compare</ref>(<ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref>&amp;<sp/>Other)</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MinLen<sp/>=<sp/><ref refid="namespace_bx_util_global_1af6b6936a90b9f791ce6f2b2b4d15b15e" kindref="member" tooltip="최소값 구하기">BxUtilGlobal::Min</ref>(Chars.Length(),<sp/>Other.Chars.Length());</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>MinLen;<sp/>++i)</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Chars[i]<sp/>==<sp/>Other.Chars[i])<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(Chars[i]<sp/>&lt;<sp/>Other.Chars[i])?<sp/>param_is_more<sp/>:<sp/>param_is_less;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>same;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320" refid="class_bx_string_1aaf31f369dfc9d76a8bd304aebeef4752" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>compare<sp/><ref refid="class_bx_string_1aaf31f369dfc9d76a8bd304aebeef4752" kindref="member" tooltip="스트링간 대소문자 구분없는 비교(string)">CompareNoCase</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Other)</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MinLen<sp/>=<sp/><ref refid="namespace_bx_util_global_1af6b6936a90b9f791ce6f2b2b4d15b15e" kindref="member" tooltip="최소값 구하기">BxUtilGlobal::Min</ref>(Chars.Length(),<sp/><ref refid="namespace_bx_util_global_1a677b3048a42145d09849067b4d4a73ce" kindref="member" tooltip="스트링길이 구하기">BxUtilGlobal::StrLen</ref>(Other)<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>MinLen;<sp/>++i)</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>CharC<sp/>=<sp/>Chars[i];</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>CharO<sp/>=<sp/>Other[i];</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal"><sp/>&lt;=<sp/>CharC<sp/>&amp;&amp;<sp/>CharC<sp/>&lt;=<sp/></highlight><highlight class="charliteral">&apos;Z&apos;</highlight><highlight class="normal">)<sp/>CharC<sp/>+=<sp/></highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal"><sp/>-<sp/></highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal"><sp/>&lt;=<sp/>CharO<sp/>&amp;&amp;<sp/>CharO<sp/>&lt;=<sp/></highlight><highlight class="charliteral">&apos;Z&apos;</highlight><highlight class="normal">)<sp/>CharO<sp/>+=<sp/></highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal"><sp/>-<sp/></highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(CharC<sp/>==<sp/>CharO)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(CharC<sp/>&lt;<sp/>CharO)?<sp/>param_is_more<sp/>:<sp/>param_is_less;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>same;</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340" refid="class_bx_string_1ada6eaa2e4864d928ea416bb48424ad54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>compare<sp/><ref refid="class_bx_string_1aaf31f369dfc9d76a8bd304aebeef4752" kindref="member" tooltip="스트링간 대소문자 구분없는 비교(string)">CompareNoCase</ref>(<ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref>&amp;<sp/>Other)</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MinLen<sp/>=<sp/><ref refid="namespace_bx_util_global_1af6b6936a90b9f791ce6f2b2b4d15b15e" kindref="member" tooltip="최소값 구하기">BxUtilGlobal::Min</ref>(Chars.Length(),<sp/>Other.Chars.Length());</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>MinLen;<sp/>++i)</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>CharC<sp/>=<sp/>Chars[i];</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>CharO<sp/>=<sp/>Other.Chars[i];</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal"><sp/>&lt;=<sp/>CharC<sp/>&amp;&amp;<sp/>CharC<sp/>&lt;=<sp/></highlight><highlight class="charliteral">&apos;Z&apos;</highlight><highlight class="normal">)<sp/>CharC<sp/>+=<sp/></highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal"><sp/>-<sp/></highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal"><sp/>&lt;=<sp/>CharO<sp/>&amp;&amp;<sp/>CharO<sp/>&lt;=<sp/></highlight><highlight class="charliteral">&apos;Z&apos;</highlight><highlight class="normal">)<sp/>CharO<sp/>+=<sp/></highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal"><sp/>-<sp/></highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(CharC<sp/>==<sp/>CharO)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(CharC<sp/>&lt;<sp/>CharO)?<sp/>param_is_more<sp/>:<sp/>param_is_less;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>same;</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="class_bx_string_1a49d7bab9efab049b76b36df70dd759cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1a49d7bab9efab049b76b36df70dd759cd" kindref="member" tooltip="sprintf형태로 스트링 생성">Format</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>format,<sp/>...)</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_list<sp/>List;</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_start(List,<sp/>format);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string_1a17527cf4de9395d80887159fb8f82a2e" kindref="member" tooltip="vsprintf형태로 스트링 생성">FormatV</ref>(format,<sp/>List);</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_end(List);</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373" refid="class_bx_string_1a17527cf4de9395d80887159fb8f82a2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1a17527cf4de9395d80887159fb8f82a2e" kindref="member" tooltip="vsprintf형태로 스트링 생성">FormatV</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>format,<sp/>va_list<sp/>list)</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TempLen<sp/>=<sp/><ref refid="namespace_bx_core_1_1_util_1ac70cec443af515775e1715fb098d4ebd" kindref="member" tooltip="스트링에 va_list식 스트링기록">BxCore::Util::VsnPrintf</ref>(null,<sp/>0,<sp/>format,<sp/>list);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BxAssert(</highlight><highlight class="stringliteral">&quot;BxString&lt;Temp의<sp/>예상길이를<sp/>얻는데<sp/>실패하였습니다&gt;&quot;</highlight><highlight class="normal">,<sp/>0<sp/>&lt;=<sp/>TempLen);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>string_rw<sp/>Temp<sp/>=<sp/>(string_rw)<sp/>BxAlloc(TempLen<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_bx_core_1_1_util_1ac70cec443af515775e1715fb098d4ebd" kindref="member" tooltip="스트링에 va_list식 스트링기록">BxCore::Util::VsnPrintf</ref>(Temp,<sp/>TempLen<sp/>+<sp/>1,<sp/>format,<sp/>list);</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string_1aa438d5974c167a3ed314777237575bb8" kindref="member" tooltip="내용 비우기">Empty</ref>();</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;=<sp/>TempLen;<sp/>++i)</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Chars.Insert(i,<sp/>Pool.Make())<sp/>=<sp/>Temp[i];</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BxFree(Temp);</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight></codeline>
+<codeline lineno="389" refid="class_bx_string_1a62abfc5510718c8873e366895e413d4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/><ref refid="class_bx_string_1a62abfc5510718c8873e366895e413d4f" kindref="member" tooltip="경로에서 파일명 추출">GetFileName</ref>()</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="class_bx_string_1a3ee00cfa51f7d302abc54a979f2fff07" kindref="member" tooltip="글자 찾기">Find</ref>(</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)?<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>:<sp/><ref refid="class_bx_string_1aacc17b0b1d68f70e37f6c6253271a2e0" kindref="member" tooltip="우측 복사하기">Right</ref>(<ref refid="class_bx_string_1a1c1ed24074f79412ae42d81bb0c59615" kindref="member" tooltip="길이 구하기">GetLength</ref>()<sp/>-<sp/><ref refid="class_bx_string_1ad63e9586241ff09dfcdb23af9ac844cc" kindref="member" tooltip="꺼꾸로 글자 찾기">ReverseFind</ref>(</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">)<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"></highlight></codeline>
+<codeline lineno="398" refid="class_bx_string_1a29661787c9d623e0a18b2fdf7929ac3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/><ref refid="class_bx_string_1a29661787c9d623e0a18b2fdf7929ac3d" kindref="member" tooltip="경로에서 파일명을 제외한 패스명(/문자 포함) 추출">GetFilePath</ref>()</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="class_bx_string_1a3ee00cfa51f7d302abc54a979f2fff07" kindref="member" tooltip="글자 찾기">Find</ref>(</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)?<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>:<sp/><ref refid="class_bx_string_1af376978c49ed09b7432d03e15d03dcff" kindref="member" tooltip="좌측 복사하기">Left</ref>(<ref refid="class_bx_string_1ad63e9586241ff09dfcdb23af9ac844cc" kindref="member" tooltip="꺼꾸로 글자 찾기">ReverseFind</ref>(</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">)<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"></highlight></codeline>
+<codeline lineno="407" refid="class_bx_string_1a6e566fd97c7564dc60d92625f319540f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/><ref refid="class_bx_string_1a6e566fd97c7564dc60d92625f319540f" kindref="member" tooltip="경로에서 파일타이틀(확장자 제외) 추출">GetFileTitle</ref>()</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/>FileName<sp/>=<sp/><ref refid="class_bx_string_1a62abfc5510718c8873e366895e413d4f" kindref="member" tooltip="경로에서 파일명 추출">GetFileName</ref>();</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(FileName.<ref refid="class_bx_string_1a3ee00cfa51f7d302abc54a979f2fff07" kindref="member" tooltip="글자 찾기">Find</ref>(</highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)?<sp/>FileName<sp/>:<sp/>FileName.<ref refid="class_bx_string_1af376978c49ed09b7432d03e15d03dcff" kindref="member" tooltip="좌측 복사하기">Left</ref>(FileName.<ref refid="class_bx_string_1ad63e9586241ff09dfcdb23af9ac844cc" kindref="member" tooltip="꺼꾸로 글자 찾기">ReverseFind</ref>(</highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight></codeline>
+<codeline lineno="417" refid="class_bx_string_1ab4151cb71418cbde1b8260be5dafbe84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/><ref refid="class_bx_string_1ab4151cb71418cbde1b8260be5dafbe84" kindref="member" tooltip="경로에서 파일확장자 추출">GetFileExt</ref>()</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string" kindref="compound" tooltip="스트링 관리">BxString</ref><sp/>FileExt<sp/>=<sp/>(<ref refid="class_bx_string_1a3ee00cfa51f7d302abc54a979f2fff07" kindref="member" tooltip="글자 찾기">Find</ref>(</highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)?<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>:<sp/><ref refid="class_bx_string_1aacc17b0b1d68f70e37f6c6253271a2e0" kindref="member" tooltip="우측 복사하기">Right</ref>(<ref refid="class_bx_string_1a1c1ed24074f79412ae42d81bb0c59615" kindref="member" tooltip="길이 구하기">GetLength</ref>()<sp/>-<sp/><ref refid="class_bx_string_1ad63e9586241ff09dfcdb23af9ac844cc" kindref="member" tooltip="꺼꾸로 글자 찾기">ReverseFind</ref>(</highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">)<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(0<sp/>&lt;=<sp/>FileExt.<ref refid="class_bx_string_1a3ee00cfa51f7d302abc54a979f2fff07" kindref="member" tooltip="글자 찾기">Find</ref>(</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">))?<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>:<sp/>FileExt;</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="422"><highlight class="normal"></highlight></codeline>
+<codeline lineno="427" refid="class_bx_string_1afdb5c11ac9fedea47f19d8d03a48ccaa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bx_string_1afdb5c11ac9fedea47f19d8d03a48ccaa" kindref="member" tooltip="데이터에서 로드">Load</ref>(byte*&amp;<sp/>Resource)</highlight></codeline>
+<codeline lineno="428"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_bx_string_1aa438d5974c167a3ed314777237575bb8" kindref="member" tooltip="내용 비우기">Empty</ref>();</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Length<sp/>=<sp/><ref refid="namespace_bx_util_global_1af2cc8a19541c23620fd82cc5f76ce048" kindref="member" tooltip="데이터에서 로드(ushort)">BxUtilGlobal::LoadUint16</ref>(Resource);</highlight></codeline>
+<codeline lineno="431"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;=<sp/>Length;<sp/>++i)</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Chars.Insert(END,<sp/>Pool.Make())<sp/>=<sp/><ref refid="namespace_bx_util_global_1a1779e753e6ac06f0b0538095c0ff0ca9" kindref="member" tooltip="데이터에서 로드(char)">BxUtilGlobal::LoadInt8</ref>(Resource);</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"></highlight></codeline>
+<codeline lineno="435"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_memory_pool" kindref="compound" tooltip="사용자모듈을 위한 풀링도구">BxMemoryPool&lt;char&gt;</ref><sp/>Pool;</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_var" kindref="compound" tooltip="가변배열 제공">BxVar&lt;char&gt;</ref><sp/>Chars;</highlight></codeline>
+<codeline lineno="440"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxString.hpp"/>
+  </compounddef>
+</doxygen>

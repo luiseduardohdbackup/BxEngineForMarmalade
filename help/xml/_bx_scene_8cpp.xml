@@ -1,0 +1,528 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="_bx_scene_8cpp" kind="file">
+    <compoundname>BxScene.cpp</compoundname>
+    <includes refid="_bx_scene_8hpp" local="yes">BxScene.hpp</includes>
+    <includes local="yes">s3e.h</includes>
+    <incdepgraph>
+      <node id="193">
+        <label>BxDraw.hpp</label>
+        <link refid="_bx_draw_8hpp_source"/>
+        <childnode refid="192" relation="include">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>stdarg.h</label>
+      </node>
+      <node id="181">
+        <label>BxScene.cpp</label>
+        <link refid="BxScene.cpp"/>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>BxMemory4.hpp</label>
+        <link refid="_bx_memory4_8hpp_source"/>
+        <childnode refid="187" relation="include">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>BxVar.hpp</label>
+        <link refid="_bx_var_8hpp_source"/>
+        <childnode refid="185" relation="include">
+        </childnode>
+      </node>
+      <node id="187">
+        <label>BxCore.hpp</label>
+        <link refid="_bx_core_8hpp_source"/>
+        <childnode refid="188" relation="include">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>BxMemoryPool.hpp</label>
+        <link refid="_bx_memory_pool_8hpp_source"/>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>BxMemory.hpp</label>
+        <link refid="_bx_memory_8hpp_source"/>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>BxUtil.hpp</label>
+        <link refid="_bx_util_8hpp_source"/>
+        <childnode refid="185" relation="include">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>BxString.hpp</label>
+        <link refid="_bx_string_8hpp_source"/>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>BxMemoryJoin.hpp</label>
+        <link refid="_bx_memory_join_8hpp_source"/>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>BxScene.hpp</label>
+        <link refid="_bx_scene_8hpp_source"/>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+      </node>
+      <node id="194">
+        <label>s3e.h</label>
+      </node>
+      <node id="188">
+        <label>BxType.hpp</label>
+        <link refid="_bx_type_8hpp_source"/>
+        <childnode refid="189" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_bx_scene_8cpp_1af4f665e9530917e7674dffbaffb236ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>local_func bool</type>
+        <definition>local_func bool Procedure</definition>
+        <argsstring>()</argsstring>
+        <name>Procedure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxScene.cpp" line="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_bx_scene_8cpp_1aafc32b4ef47edd283c3844213f95a75b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>local_func int</type>
+        <definition>local_func int OnKeyboard</definition>
+        <argsstring>(void *systemData, void *userData)</argsstring>
+        <name>OnKeyboard</name>
+        <param>
+          <type>void *</type>
+          <declname>systemData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxScene.cpp" line="5"/>
+      </memberdef>
+      <memberdef kind="function" id="_bx_scene_8cpp_1a2e7f3eddbf5d3bbc3a595b4c62db9b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>local_func int</type>
+        <definition>local_func int OnPointer</definition>
+        <argsstring>(void *systemData, void *userData)</argsstring>
+        <name>OnPointer</name>
+        <param>
+          <type>void *</type>
+          <declname>systemData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxScene.cpp" line="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_bx_scene_8cpp_1aab8e8745805b43294be43b8d0bd996f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>local_func int</type>
+        <definition>local_func int OnPointerMotion</definition>
+        <argsstring>(void *systemData, void *userData)</argsstring>
+        <name>OnPointerMotion</name>
+        <param>
+          <type>void *</type>
+          <declname>systemData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxScene.cpp" line="7"/>
+      </memberdef>
+      <memberdef kind="function" id="_bx_scene_8cpp_1a70adc00ab361ce5194497fa04361b340" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>local_func int</type>
+        <definition>local_func int OnPointer_Multi</definition>
+        <argsstring>(void *systemData, void *userData)</argsstring>
+        <name>OnPointer_Multi</name>
+        <param>
+          <type>void *</type>
+          <declname>systemData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxScene.cpp" line="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_bx_scene_8cpp_1ab49870dd2b514b1bd6f1f0a078066a24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>local_func int</type>
+        <definition>local_func int OnPointerMotion_Multi</definition>
+        <argsstring>(void *systemData, void *userData)</argsstring>
+        <name>OnPointerMotion_Multi</name>
+        <param>
+          <type>void *</type>
+          <declname>systemData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxScene.cpp" line="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;BxScene.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;s3e.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">local_func<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Procedure();</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">local_func<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>OnKeyboard(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>systemData,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>userData);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">local_func<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>OnPointer(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>systemData,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>userData);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">local_func<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>OnPointerMotion(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>systemData,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>userData);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">local_func<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>OnPointer_Multi(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>systemData,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>userData);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">local_func<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>OnPointerMotion_Multi(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>systemData,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>userData);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">local_func<sp/>keykind<sp/>GetKeyKind(s3eKey<sp/>keycode)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(keycode)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyEsc:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_esc;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyTab:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_tab;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyBackspace:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_bspace;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyEnter:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_enter;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyLeftShift:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_shift;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyLeftControl:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_ctrl;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyReserved:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_null;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeySpace:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_space;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyLeft:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_left;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyUp:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_up;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyRight:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_right;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyDown:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_down;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKey0:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_0;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKey1:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_1;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKey2:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_2;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKey3:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_3;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKey4:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_4;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKey5:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_5;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKey6:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_6;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKey7:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_7;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKey8:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_8;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKey9:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_9;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyA:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_a;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyB:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_b;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyC:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_c;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyD:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_d;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyE:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_e;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyF:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_f;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyG:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_g;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyH:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_h;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyI:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_i;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyJ:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_j;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyK:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_k;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyL:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_l;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyM:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_m;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyN:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_n;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyO:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_o;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyP:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_p;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyQ:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_q;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyR:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_r;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyS:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_s;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyT:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_t;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyU:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_u;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyV:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_v;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyW:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_w;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyX:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_x;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyY:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_y;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyZ:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_z;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyF1:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_f1;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyF2:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_f2;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyF3:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_f3;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyF4:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_f4;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyF5:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_f5;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyF6:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_f6;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyF7:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_f7;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyF8:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_f8;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyF9:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_f9;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyF10:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_f10;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyNumPad0:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_pad_0;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyNumPad1:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_pad_1;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyNumPad2:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_pad_2;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyNumPad3:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_pad_3;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyNumPad4:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_pad_4;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyNumPad5:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_pad_5;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyNumPad6:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_pad_6;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyNumPad7:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_pad_7;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyNumPad8:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_pad_8;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyNumPad9:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_pad_9;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyNumPadPlus:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_pad_plus;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyNumPadMinus:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_pad_minus;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyNumPadEnter:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_pad_enter;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyRSK:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_soft_right;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyLSK:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_soft_left;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyLS:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_shoulder_left;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyRS:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_shoulder_right;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyHash:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_sharp;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyStar:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_star;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyOk:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_ok;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyCLR:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_clr;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyVolUp:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_vol_up;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>s3eKeyVolDown:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_vol_down;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keykind_null;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"></codeline>
+<codeline lineno="103"><highlight class="normal">local_data<sp/><ref refid="class_bx_draw" kindref="compound" tooltip="OpenGL/SW랜더링기반 그리기도구">BxDraw</ref>*<sp/><ref refid="namespace_bx_core_1_1_font_1a08159673a1a3269082f9a3a1bc90eb28" kindref="member" tooltip="스트링 출력">Draw</ref><sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">local_data<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsChildProcessRun<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">callback_process<sp/>ChildProcess<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="107"></codeline>
+<codeline lineno="109"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>main()</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Draw객체<sp/>할당</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>Draw<sp/>=<sp/>BxNew(<ref refid="class_bx_draw" kindref="compound" tooltip="OpenGL/SW랜더링기반 그리기도구">BxDraw</ref>);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>이벤트등록</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>s3eKeyboardRegister(S3E_KEYBOARD_KEY_EVENT,<sp/>OnKeyboard,<sp/>null);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>IsMultiTouch<sp/>=<sp/>s3ePointerGetInt(S3E_POINTER_MULTI_TOUCH_AVAILABLE);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(IsMultiTouch)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s3ePointerRegister(S3E_POINTER_TOUCH_EVENT,<sp/>OnPointer_Multi,<sp/>null);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>s3ePointerRegister(S3E_POINTER_BUTTON_EVENT,<sp/>OnPointer,<sp/>null);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>First<sp/>Scene<sp/>Test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>FirstSceneCount<sp/>=<sp/>BxScene::__GetActiveSceneCount__();</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>BxAssert(</highlight><highlight class="stringliteral">&quot;BxScene&lt;최초<sp/>씬은<sp/>1개여야<sp/>합니다&gt;&quot;</highlight><highlight class="normal">,<sp/>FirstSceneCount<sp/>==<sp/>1);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Scene<sp/>Init(SceneData<sp/>Create)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsysevent" kindref="compound" tooltip="OnEvent()의 이벤트파라미터">sysevent</ref><sp/>Event;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.type<sp/>=<sp/>syseventtype_init;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.init.w<sp/>=<sp/><ref refid="namespace_bx_core_1_1_surface_1a1c489f29b14e4ce1d01ff05a30df4ba5" kindref="member" tooltip="화면너비 구하기">BxCore::Surface::GetWidth</ref>();</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.init.h<sp/>=<sp/><ref refid="namespace_bx_core_1_1_surface_1a1c360a3e21f7c82b5d9fed34e2c3e2aa" kindref="member" tooltip="화면높이 구하기">BxCore::Surface::GetHeight</ref>();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>BxScene::__OnEvent__(*Draw,<sp/>Event);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>uhuge<sp/>CheckTime<sp/>=<sp/><ref refid="namespace_bx_core_1_1_system_1a24ff032c301727ef7561cb3f1bfa4381" kindref="member" tooltip="현재시간 구하기">BxCore::System::GetTimerMs</ref>();</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(Procedure())</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>프레임슬립처리</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_bx_core_1_1_system_1ac19388a6c092a2770a38a155e7f1cc6e" kindref="member" tooltip="프로세스 슬립(밀린 소켓/키이벤트등 처리)">BxCore::System::Sleep</ref>(0);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<ref refid="namespace_bx_core_1_1_system_1a24ff032c301727ef7561cb3f1bfa4381" kindref="member" tooltip="현재시간 구하기">BxCore::System::GetTimerMs</ref>()<sp/>-<sp/>CheckTime<sp/>&lt;<sp/>MILLISECOND_PER_FRAME)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_bx_core_1_1_system_1ac19388a6c092a2770a38a155e7f1cc6e" kindref="member" tooltip="프로세스 슬립(밀린 소켓/키이벤트등 처리)">BxCore::System::Sleep</ref>(1);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CheckTime<sp/>=<sp/><ref refid="namespace_bx_core_1_1_system_1a24ff032c301727ef7561cb3f1bfa4381" kindref="member" tooltip="현재시간 구하기">BxCore::System::GetTimerMs</ref>();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Scene<sp/>Quit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.type<sp/>=<sp/>syseventtype_quit;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>BxScene::__OnEvent__(*Draw,<sp/>Event);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>All<sp/>SceneData<sp/>Remove</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>BxScene::AllScene*<sp/>OneScene<sp/>=<sp/>&amp;BxScene::__GetAllScene__();</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">((OneScene<sp/>=<sp/>OneScene-&gt;Next)<sp/>!=<sp/>null)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OneScene-&gt;GetData(sysmethod_remove);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>이벤트해제</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>s3eKeyboardUnRegister(S3E_KEYBOARD_KEY_EVENT,<sp/>OnKeyboard);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(IsMultiTouch)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s3ePointerUnRegister(S3E_POINTER_TOUCH_EVENT,<sp/>OnPointer_Multi);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>s3ePointerUnRegister(S3E_POINTER_BUTTON_EVENT,<sp/>OnPointer);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Draw객체<sp/>해제</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>BxDelete(Draw);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>전역객체<sp/>해제</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bx_memory_join" kindref="compound" tooltip="정적인스턴스들의 일괄소멸을 위한 도구">BxMemoryJoin&lt;memoryjoin_global&gt;::Release</ref>();</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>메모리해제확인</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(BxMemory::DoMemLogger())</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>Test<sp/>=<sp/>BxAlloc(1);<sp/></highlight><highlight class="comment">//<sp/>메모리해제확인중...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BxFree(Test);<sp/></highlight><highlight class="comment">//<sp/>메모리해제확인중...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_bx_core_1_1_system_1ac19388a6c092a2770a38a155e7f1cc6e" kindref="member" tooltip="프로세스 슬립(밀린 소켓/키이벤트등 처리)">BxCore::System::Sleep</ref>(10);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="171"></codeline>
+<codeline lineno="173"><highlight class="normal">local_func<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ProcedureWithYield(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sleep)</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>global_data<sp/>uhuge<sp/>LastTime<sp/>=<sp/><ref refid="namespace_bx_core_1_1_system_1a24ff032c301727ef7561cb3f1bfa4381" kindref="member" tooltip="현재시간 구하기">BxCore::System::GetTimerMs</ref>();</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uhuge<sp/>LimitTime<sp/>=<sp/><ref refid="namespace_bx_core_1_1_system_1a24ff032c301727ef7561cb3f1bfa4381" kindref="member" tooltip="현재시간 구하기">BxCore::System::GetTimerMs</ref>()<sp/>+<sp/>sleep;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="namespace_bx_core_1_1_system_1ab2e59628389afb803d3f45060383d1b6" kindref="member" tooltip="어플종료 요청여부">BxCore::System::IsQuit</ref>())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uhuge<sp/>CurTime<sp/>=<sp/><ref refid="namespace_bx_core_1_1_system_1a24ff032c301727ef7561cb3f1bfa4381" kindref="member" tooltip="현재시간 구하기">BxCore::System::GetTimerMs</ref>();</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(LastTime<sp/>+<sp/>MILLISECOND_PER_FRAME<sp/>&lt;<sp/>CurTime)</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LastTime<sp/>=<sp/>CurTime<sp/>-<sp/><ref refid="namespace_bx_util_global_1af6b6936a90b9f791ce6f2b2b4d15b15e" kindref="member" tooltip="최소값 구하기">BxUtilGlobal::Min</ref>((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>(CurTime<sp/>-<sp/>(LastTime<sp/>+<sp/>MILLISECOND_PER_FRAME)),<sp/>MILLISECOND_PER_FRAME);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_bx_core_1_1_system_1ac19388a6c092a2770a38a155e7f1cc6e" kindref="member" tooltip="프로세스 슬립(밀린 소켓/키이벤트등 처리)">BxCore::System::Sleep</ref>(0);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!Procedure())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(sleep)<sp/><ref refid="namespace_bx_core_1_1_system_1ac19388a6c092a2770a38a155e7f1cc6e" kindref="member" tooltip="프로세스 슬립(밀린 소켓/키이벤트등 처리)">BxCore::System::Sleep</ref>(1);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<ref refid="namespace_bx_core_1_1_system_1a24ff032c301727ef7561cb3f1bfa4381" kindref="member" tooltip="현재시간 구하기">BxCore::System::GetTimerMs</ref>()<sp/>&lt;<sp/>LimitTime);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="193"></codeline>
+<codeline lineno="195"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Procedure()</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="namespace_bx_core_1_1_system_1ab2e59628389afb803d3f45060383d1b6" kindref="member" tooltip="어플종료 요청여부">BxCore::System::IsQuit</ref>()<sp/>||<sp/>BxScene::__GetActiveSceneCount__()<sp/>&lt;=<sp/>0)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_bx_core_1_1_util_1a3055494eac4b2e5797611cd67d7447b9" kindref="member" tooltip="콜순번 초기화">BxCore::Util::SetCallCount</ref>(0);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>BxScene::__OnUpdateRender__(*Draw);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>Draw-&gt;Flush();</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>통합콜백처리</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>BxCore::System::CallbackList*<sp/>List<sp/>=<sp/>BxCore::System::CallbackList::GetFirst();</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(List-&gt;Next)</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!List-&gt;Next-&gt;Method(List-&gt;Next-&gt;Data))</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BxCore::System::CallbackList*<sp/>DeleteList<sp/>=<sp/>List-&gt;Next;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List-&gt;Next<sp/>=<sp/>DeleteList-&gt;Next;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DeleteList-&gt;Next<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BxDelete(DeleteList);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List<sp/>=<sp/>List-&gt;Next;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>자식프로세스의<sp/>실행</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!IsChildProcessRun<sp/>&amp;&amp;<sp/>ChildProcess)</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IsChildProcessRun<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ChildProcess(ProcedureWithYield);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ChildProcess<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IsChildProcessRun<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="230"></codeline>
+<codeline lineno="232"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>OnKeyboard(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>systemData,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>userData)</highlight></codeline>
+<codeline lineno="233"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>s3eKeyboardEvent*<sp/>EventData<sp/>=<sp/>(s3eKeyboardEvent*)<sp/>systemData;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsysevent" kindref="compound" tooltip="OnEvent()의 이벤트파라미터">sysevent</ref><sp/>Event;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.type<sp/>=<sp/>syseventtype_key;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.key.type<sp/>=<sp/>(EventData-&gt;m_Pressed)?<sp/>syskeytype_down<sp/>:<sp/>syskeytype_up;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.key.code<sp/>=<sp/>GetKeyKind(EventData-&gt;m_Key);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>BxScene::__OnEvent__(*Draw,<sp/>Event,<sp/>(EventData-&gt;m_Pressed)?<sp/>syseventset_do_enable<sp/>:<sp/>syseventset_need_enable);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="243"></codeline>
+<codeline lineno="245"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>OnPointer(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>systemData,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>userData)</highlight></codeline>
+<codeline lineno="246"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>s3ePointerEvent*<sp/>EventData<sp/>=<sp/>(s3ePointerEvent*)<sp/>systemData;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsysevent" kindref="compound" tooltip="OnEvent()의 이벤트파라미터">sysevent</ref><sp/>Event;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.type<sp/>=<sp/>syseventtype_touch;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.type<sp/>=<sp/>(EventData-&gt;m_Pressed)?<sp/>systouchtype_down<sp/>:<sp/>systouchtype_up;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.id<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.x<sp/>=<sp/>EventData-&gt;m_x<sp/>*<sp/><ref refid="namespace_bx_core_1_1_surface_1a1c489f29b14e4ce1d01ff05a30df4ba5" kindref="member" tooltip="화면너비 구하기">BxCore::Surface::GetWidth</ref>()<sp/>/<sp/><ref refid="namespace_bx_core_1_1_surface_1a96179b273fc94f49e26bf756198984d6" kindref="member" tooltip="하드웨어적 화면너비 구하기">BxCore::Surface::GetWidthHW</ref>();</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.y<sp/>=<sp/>EventData-&gt;m_y<sp/>*<sp/><ref refid="namespace_bx_core_1_1_surface_1a1c360a3e21f7c82b5d9fed34e2c3e2aa" kindref="member" tooltip="화면높이 구하기">BxCore::Surface::GetHeight</ref>()<sp/>/<sp/><ref refid="namespace_bx_core_1_1_surface_1ac341e665257e4852f8cdcf3c19904ce9" kindref="member" tooltip="하드웨어적 화면높이 구하기">BxCore::Surface::GetHeightHW</ref>();</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(BxScene::__OnEvent__(*Draw,<sp/>Event,<sp/>(EventData-&gt;m_Pressed)?<sp/>syseventset_do_enable<sp/>:<sp/>syseventset_need_enable));</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(EventData-&gt;m_Pressed)</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s3ePointerRegister(S3E_POINTER_MOTION_EVENT,<sp/>OnPointerMotion,<sp/>null);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>s3ePointerUnRegister(S3E_POINTER_MOTION_EVENT,<sp/>OnPointerMotion);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="262"></codeline>
+<codeline lineno="264"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>OnPointerMotion(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>systemData,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>userData)</highlight></codeline>
+<codeline lineno="265"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>s3ePointerMotionEvent*<sp/>EventData<sp/>=<sp/>(s3ePointerMotionEvent*)<sp/>systemData;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsysevent" kindref="compound" tooltip="OnEvent()의 이벤트파라미터">sysevent</ref><sp/>Event;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.type<sp/>=<sp/>syseventtype_touch;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.type<sp/>=<sp/>systouchtype_move;</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.id<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.x<sp/>=<sp/>EventData-&gt;m_x<sp/>*<sp/><ref refid="namespace_bx_core_1_1_surface_1a1c489f29b14e4ce1d01ff05a30df4ba5" kindref="member" tooltip="화면너비 구하기">BxCore::Surface::GetWidth</ref>()<sp/>/<sp/><ref refid="namespace_bx_core_1_1_surface_1a96179b273fc94f49e26bf756198984d6" kindref="member" tooltip="하드웨어적 화면너비 구하기">BxCore::Surface::GetWidthHW</ref>();</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.y<sp/>=<sp/>EventData-&gt;m_y<sp/>*<sp/><ref refid="namespace_bx_core_1_1_surface_1a1c360a3e21f7c82b5d9fed34e2c3e2aa" kindref="member" tooltip="화면높이 구하기">BxCore::Surface::GetHeight</ref>()<sp/>/<sp/><ref refid="namespace_bx_core_1_1_surface_1ac341e665257e4852f8cdcf3c19904ce9" kindref="member" tooltip="하드웨어적 화면높이 구하기">BxCore::Surface::GetHeightHW</ref>();</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/>BxScene::__OnEvent__(*Draw,<sp/>Event,<sp/>syseventset_need_enable);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="277"></codeline>
+<codeline lineno="279"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>OnPointer_Multi(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>systemData,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>userData)</highlight></codeline>
+<codeline lineno="280"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/>global_data<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsPressed[S3E_POINTER_TOUCH_MAX]<sp/>=<sp/>{</highlight><highlight class="keyword">false</highlight><highlight class="normal">,};</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>s3ePointerTouchEvent*<sp/>EventData<sp/>=<sp/>(s3ePointerTouchEvent*)<sp/>systemData;</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsysevent" kindref="compound" tooltip="OnEvent()의 이벤트파라미터">sysevent</ref><sp/>Event;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.type<sp/>=<sp/>syseventtype_touch;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.type<sp/>=<sp/>(EventData-&gt;m_Pressed)?<sp/>systouchtype_down<sp/>:<sp/>systouchtype_up;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.id<sp/>=<sp/>EventData-&gt;m_TouchID;</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.x<sp/>=<sp/>EventData-&gt;m_x<sp/>*<sp/><ref refid="namespace_bx_core_1_1_surface_1a1c489f29b14e4ce1d01ff05a30df4ba5" kindref="member" tooltip="화면너비 구하기">BxCore::Surface::GetWidth</ref>()<sp/>/<sp/><ref refid="namespace_bx_core_1_1_surface_1a96179b273fc94f49e26bf756198984d6" kindref="member" tooltip="하드웨어적 화면너비 구하기">BxCore::Surface::GetWidthHW</ref>();</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.y<sp/>=<sp/>EventData-&gt;m_y<sp/>*<sp/><ref refid="namespace_bx_core_1_1_surface_1a1c360a3e21f7c82b5d9fed34e2c3e2aa" kindref="member" tooltip="화면높이 구하기">BxCore::Surface::GetHeight</ref>()<sp/>/<sp/><ref refid="namespace_bx_core_1_1_surface_1ac341e665257e4852f8cdcf3c19904ce9" kindref="member" tooltip="하드웨어적 화면높이 구하기">BxCore::Surface::GetHeightHW</ref>();</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(BxScene::__OnEvent__(*Draw,<sp/>Event,<sp/>(EventData-&gt;m_Pressed)?<sp/>syseventset_do_enable<sp/>:<sp/>syseventset_need_enable));</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>IsPressed[EventData-&gt;m_TouchID]<sp/>=<sp/>(EventData-&gt;m_Pressed<sp/>!=<sp/>0);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>PressCount<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>S3E_POINTER_TOUCH_MAX;<sp/>++i)</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(IsPressed[i])<sp/>++PressCount;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(EventData-&gt;m_Pressed)</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PressCount<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s3ePointerRegister(S3E_POINTER_TOUCH_MOTION_EVENT,<sp/>OnPointerMotion_Multi,<sp/>null);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PressCount<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s3ePointerUnRegister(S3E_POINTER_TOUCH_MOTION_EVENT,<sp/>OnPointerMotion_Multi);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="305"></codeline>
+<codeline lineno="307"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>OnPointerMotion_Multi(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>systemData,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>userData)</highlight></codeline>
+<codeline lineno="308"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>s3ePointerTouchMotionEvent*<sp/>EventData<sp/>=<sp/>(s3ePointerTouchMotionEvent*)<sp/>systemData;</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsysevent" kindref="compound" tooltip="OnEvent()의 이벤트파라미터">sysevent</ref><sp/>Event;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.type<sp/>=<sp/>syseventtype_touch;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.type<sp/>=<sp/>systouchtype_move;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.id<sp/>=<sp/>EventData-&gt;m_TouchID;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.x<sp/>=<sp/>EventData-&gt;m_x<sp/>*<sp/><ref refid="namespace_bx_core_1_1_surface_1a1c489f29b14e4ce1d01ff05a30df4ba5" kindref="member" tooltip="화면너비 구하기">BxCore::Surface::GetWidth</ref>()<sp/>/<sp/><ref refid="namespace_bx_core_1_1_surface_1a96179b273fc94f49e26bf756198984d6" kindref="member" tooltip="하드웨어적 화면너비 구하기">BxCore::Surface::GetWidthHW</ref>();</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/>Event.touch.y<sp/>=<sp/>EventData-&gt;m_y<sp/>*<sp/><ref refid="namespace_bx_core_1_1_surface_1a1c360a3e21f7c82b5d9fed34e2c3e2aa" kindref="member" tooltip="화면높이 구하기">BxCore::Surface::GetHeight</ref>()<sp/>/<sp/><ref refid="namespace_bx_core_1_1_surface_1ac341e665257e4852f8cdcf3c19904ce9" kindref="member" tooltip="하드웨어적 화면높이 구하기">BxCore::Surface::GetHeightHW</ref>();</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/>BxScene::__OnEvent__(*Draw,<sp/>Event,<sp/>syseventset_need_enable);</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="318"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxScene.cpp"/>
+  </compounddef>
+</doxygen>

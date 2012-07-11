@@ -1,0 +1,106 @@
+defines
+{
+	__S3E_CL_WRAPPER
+	__BX_OPENGL
+	IW_GXFONT_TTF
+}
+
+debug_defines
+{
+	IW_USE_TRACING
+	IW_USE_ASSERTIONS
+	IW_USE_CALLSTACK
+	__BX_DEBUG
+}
+
+files
+{
+	["Source"]
+	(source)
+	TestA.cpp
+	TestA.hpp
+	TestB.cpp
+	TestB.hpp
+	TestList.cpp
+	TestList.hpp
+
+	["BxLib"]
+	(bxlib)
+	BxAutoBuffer.hpp
+	BxCore.cpp
+	BxCore.hpp
+	BxDraw.hpp
+	BxImage.hpp
+	BxKeyword.hpp
+	BxMemory.hpp
+	BxMemoryJoin.hpp
+	BxMemoryPool.hpp
+	BxScene.cpp
+	BxScene.hpp
+	BxSceneObject.hpp
+	BxString.hpp
+	BxType.hpp
+	BxUtil.hpp
+	BxVar.hpp
+	BxVarMap.hpp
+	BxVarVector.hpp
+	BxWebContent.hpp
+	BxXml.hpp
+
+	["BxDll"]
+	(bxdll)
+	CodeLogger2.dll
+
+	["Help"]
+	(help/html)
+	index.html
+}
+
+includepaths
+{
+	.
+	bxlib
+	source
+}
+
+options
+{
+	compile-thumb=0
+}
+
+assets
+{
+	(data)
+	app.config.txt
+
+	["Font"]
+	(data)
+	font/
+
+	["Sound"]
+	(data)
+	sound/
+
+	["Data"]
+	<include "Font">
+	<include "Sound">
+}
+
+deployments
+{
+	name='BxEngine'
+	caption='BxEngine'
+	long-caption='BxEngineForMarmalade'
+	provider='Bonex'
+	version='100'
+	version-string='1.0.0'
+	app-icf="data/app.icf"
+	assets=Data
+}
+
+subproject
+{
+	iwgx
+	derbh
+	iwgxfont
+}

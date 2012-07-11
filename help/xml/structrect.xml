@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="structrect" kind="struct" prot="public">
+    <compoundname>rect</compoundname>
+    <includes refid="_bx_type_8hpp" local="no">BxType.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structrect_1a7e9c5730364315dd11f06f8e0935ab65" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short rect::l</definition>
+        <argsstring></argsstring>
+        <name>l</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="186" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrect_1accc76c6d5c82c286d5f250bbc3627ef2" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short rect::t</definition>
+        <argsstring></argsstring>
+        <name>t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="186" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrect_1a5049a0bf30c446e1e06bad88eab56881" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short rect::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="186" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrect_1aadecb21eea14b120f7801c532dc46fd3" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short rect::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="186" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structrect_1a3cad144cdbc72ef6b6ec819089acf7e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global_func const <ref refid="structrect" kindref="compound">rect</ref> &amp;</type>
+        <definition>global_func const rect&amp; rect::zero</definition>
+        <argsstring>()</argsstring>
+        <name>zero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="187" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="187" bodyend="187"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>rect구조체 : l, t, r, b </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="185" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="184" bodyend="188"/>
+    <listofallmembers>
+      <member refid="structrect_1aadecb21eea14b120f7801c532dc46fd3" prot="public" virt="non-virtual"><scope>rect</scope><name>b</name></member>
+      <member refid="structrect_1a7e9c5730364315dd11f06f8e0935ab65" prot="public" virt="non-virtual"><scope>rect</scope><name>l</name></member>
+      <member refid="structrect_1a5049a0bf30c446e1e06bad88eab56881" prot="public" virt="non-virtual"><scope>rect</scope><name>r</name></member>
+      <member refid="structrect_1accc76c6d5c82c286d5f250bbc3627ef2" prot="public" virt="non-virtual"><scope>rect</scope><name>t</name></member>
+      <member refid="structrect_1a3cad144cdbc72ef6b6ec819089acf7e9" prot="public" virt="non-virtual"><scope>rect</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

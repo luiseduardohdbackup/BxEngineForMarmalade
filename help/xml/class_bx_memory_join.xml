@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="class_bx_memory_join" kind="class" prot="public">
+    <compoundname>BxMemoryJoin</compoundname>
+    <includes refid="_bx_memory_join_8hpp" local="no">BxMemoryJoin.hpp</includes>
+    <innerclass refid="class_bx_memory_join_1_1_list" prot="private">BxMemoryJoin::List</innerclass>
+    <innerclass refid="class_bx_memory_join_1_1_node" prot="private">BxMemoryJoin::Node</innerclass>
+    <innerclass refid="class_bx_memory_join_1_1_node_data" prot="private">BxMemoryJoin::NodeData</innerclass>
+    <templateparamlist>
+      <param>
+        <type>memoryjoin</type>
+        <declname>MEMORYJOIN_ID</declname>
+        <defname>MEMORYJOIN_ID</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bx_memory_join_1ab44c66f4b310555c29605760339dca9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TYPE</type>
+          </param>
+        </templateparamlist>
+        <type>global_func TYPE *</type>
+        <definition>global_func TYPE* BxMemoryJoin&lt; MEMORYJOIN_ID &gt;::Make</definition>
+        <argsstring>(const uint count)</argsstring>
+        <name>Make</name>
+        <param>
+          <type>const uint</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" line="12" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_memory_join_1a91cbd7e81b44241edcb7e7d01019f46a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TYPE</type>
+          </param>
+        </templateparamlist>
+        <type>global_func void</type>
+        <definition>global_func void BxMemoryJoin&lt; MEMORYJOIN_ID &gt;::Free</definition>
+        <argsstring>(TYPE *&amp;ptr)</argsstring>
+        <name>Free</name>
+        <param>
+          <type>TYPE *&amp;</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" line="18" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_memory_join_1af45e944a8f45916715cbd50c49585481" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global_func void</type>
+        <definition>global_func void BxMemoryJoin&lt; MEMORYJOIN_ID &gt;::Release</definition>
+        <argsstring>()</argsstring>
+        <name>Release</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" line="24" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_memory_join_1a28831ccab7ef9ce81f2988742aca469e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TYPE</type>
+          </param>
+          <param>
+            <type>typename PARAM1</type>
+          </param>
+        </templateparamlist>
+        <type>global_func TYPE *</type>
+        <definition>global_func TYPE* BxMemoryJoin&lt; MEMORYJOIN_ID &gt;::Make</definition>
+        <argsstring>(const uint count, PARAM1 value1)</argsstring>
+        <name>Make</name>
+        <param>
+          <type>const uint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>PARAM1</type>
+          <declname>value1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" line="30" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" bodystart="29" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_memory_join_1afc81929673a321e3f60d40497730eafd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TYPE</type>
+          </param>
+          <param>
+            <type>typename PARAM1</type>
+          </param>
+          <param>
+            <type>typename PARAM2</type>
+          </param>
+        </templateparamlist>
+        <type>global_func TYPE *</type>
+        <definition>global_func TYPE* BxMemoryJoin&lt; MEMORYJOIN_ID &gt;::Make</definition>
+        <argsstring>(const uint count, PARAM1 value1, PARAM2 value2)</argsstring>
+        <name>Make</name>
+        <param>
+          <type>const uint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>PARAM1</type>
+          <declname>value1</declname>
+        </param>
+        <param>
+          <type>PARAM2</type>
+          <declname>value2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" line="33" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" bodystart="32" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_memory_join_1abb3ba5fde3cfee59586097de870ac72f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TYPE</type>
+          </param>
+          <param>
+            <type>typename PARAM1</type>
+          </param>
+          <param>
+            <type>typename PARAM2</type>
+          </param>
+          <param>
+            <type>typename PARAM3</type>
+          </param>
+        </templateparamlist>
+        <type>global_func TYPE *</type>
+        <definition>global_func TYPE* BxMemoryJoin&lt; MEMORYJOIN_ID &gt;::Make</definition>
+        <argsstring>(const uint count, PARAM1 value1, PARAM2 value2, PARAM3 value3)</argsstring>
+        <name>Make</name>
+        <param>
+          <type>const uint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>PARAM1</type>
+          <declname>value1</declname>
+        </param>
+        <param>
+          <type>PARAM2</type>
+          <declname>value2</declname>
+        </param>
+        <param>
+          <type>PARAM3</type>
+          <declname>value3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" line="36" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" bodystart="35" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_memory_join_1a53656aed856a4d1371c7f1c7020c707f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TYPE</type>
+          </param>
+          <param>
+            <type>typename PARAM1</type>
+          </param>
+          <param>
+            <type>typename PARAM2</type>
+          </param>
+          <param>
+            <type>typename PARAM3</type>
+          </param>
+          <param>
+            <type>typename PARAM4</type>
+          </param>
+        </templateparamlist>
+        <type>global_func TYPE *</type>
+        <definition>global_func TYPE* BxMemoryJoin&lt; MEMORYJOIN_ID &gt;::Make</definition>
+        <argsstring>(const uint count, PARAM1 value1, PARAM2 value2, PARAM3 value3, PARAM4 value4)</argsstring>
+        <name>Make</name>
+        <param>
+          <type>const uint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>PARAM1</type>
+          <declname>value1</declname>
+        </param>
+        <param>
+          <type>PARAM2</type>
+          <declname>value2</declname>
+        </param>
+        <param>
+          <type>PARAM3</type>
+          <declname>value3</declname>
+        </param>
+        <param>
+          <type>PARAM4</type>
+          <declname>value4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" line="39" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" bodystart="38" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_memory_join_1a343323815a91c2915b02c5cb3f1485b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TYPE</type>
+          </param>
+          <param>
+            <type>typename PARAM1</type>
+          </param>
+          <param>
+            <type>typename PARAM2</type>
+          </param>
+          <param>
+            <type>typename PARAM3</type>
+          </param>
+          <param>
+            <type>typename PARAM4</type>
+          </param>
+          <param>
+            <type>typename PARAM5</type>
+          </param>
+        </templateparamlist>
+        <type>global_func TYPE *</type>
+        <definition>global_func TYPE* BxMemoryJoin&lt; MEMORYJOIN_ID &gt;::Make</definition>
+        <argsstring>(const uint count, PARAM1 value1, PARAM2 value2, PARAM3 value3, PARAM4 value4, PARAM4 value5)</argsstring>
+        <name>Make</name>
+        <param>
+          <type>const uint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>PARAM1</type>
+          <declname>value1</declname>
+        </param>
+        <param>
+          <type>PARAM2</type>
+          <declname>value2</declname>
+        </param>
+        <param>
+          <type>PARAM3</type>
+          <declname>value3</declname>
+        </param>
+        <param>
+          <type>PARAM4</type>
+          <declname>value4</declname>
+        </param>
+        <param>
+          <type>PARAM4</type>
+          <declname>value5</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" line="42" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" bodystart="41" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>정적인스턴스들의 일괄소멸을 위한 도구 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" line="8" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxMemoryJoin.hpp" bodystart="7" bodyend="122"/>
+    <listofallmembers>
+      <member refid="class_bx_memory_join_1a91cbd7e81b44241edcb7e7d01019f46a" prot="public" virt="non-virtual"><scope>BxMemoryJoin</scope><name>Free</name></member>
+      <member refid="class_bx_memory_join_1ab44c66f4b310555c29605760339dca9f" prot="public" virt="non-virtual"><scope>BxMemoryJoin</scope><name>Make</name></member>
+      <member refid="class_bx_memory_join_1a28831ccab7ef9ce81f2988742aca469e" prot="public" virt="non-virtual"><scope>BxMemoryJoin</scope><name>Make</name></member>
+      <member refid="class_bx_memory_join_1afc81929673a321e3f60d40497730eafd" prot="public" virt="non-virtual"><scope>BxMemoryJoin</scope><name>Make</name></member>
+      <member refid="class_bx_memory_join_1abb3ba5fde3cfee59586097de870ac72f" prot="public" virt="non-virtual"><scope>BxMemoryJoin</scope><name>Make</name></member>
+      <member refid="class_bx_memory_join_1a53656aed856a4d1371c7f1c7020c707f" prot="public" virt="non-virtual"><scope>BxMemoryJoin</scope><name>Make</name></member>
+      <member refid="class_bx_memory_join_1a343323815a91c2915b02c5cb3f1485b1" prot="public" virt="non-virtual"><scope>BxMemoryJoin</scope><name>Make</name></member>
+      <member refid="class_bx_memory_join_1af45e944a8f45916715cbd50c49585481" prot="public" virt="non-virtual"><scope>BxMemoryJoin</scope><name>Release</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

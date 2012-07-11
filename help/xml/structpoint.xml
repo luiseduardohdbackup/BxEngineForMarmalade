@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="structpoint" kind="struct" prot="public">
+    <compoundname>point</compoundname>
+    <includes refid="_bx_type_8hpp" local="no">BxType.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structpoint_1ad679b07fb69d55f5ad454d0f1f2891d5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int point::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="171" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpoint_1a9a82ca9504acabb1e30569f89c805471" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int point::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="171" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structpoint_1a348dd86ec27b7330f306632cb73fd927" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global_func const <ref refid="structpoint" kindref="compound">point</ref> &amp;</type>
+        <definition>global_func const point&amp; point::zero</definition>
+        <argsstring>()</argsstring>
+        <name>zero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="172" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="172" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>point구조체 : x, y </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" line="170" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxType.hpp" bodystart="169" bodyend="173"/>
+    <listofallmembers>
+      <member refid="structpoint_1ad679b07fb69d55f5ad454d0f1f2891d5" prot="public" virt="non-virtual"><scope>point</scope><name>x</name></member>
+      <member refid="structpoint_1a9a82ca9504acabb1e30569f89c805471" prot="public" virt="non-virtual"><scope>point</scope><name>y</name></member>
+      <member refid="structpoint_1a348dd86ec27b7330f306632cb73fd927" prot="public" virt="non-virtual"><scope>point</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

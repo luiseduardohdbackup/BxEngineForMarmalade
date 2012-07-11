@@ -1,0 +1,953 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="class_bx_scene_object" kind="class" prot="public">
+    <compoundname>BxSceneObject</compoundname>
+    <includes refid="_bx_scene_object_8hpp" local="no">BxSceneObject.hpp</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822e" prot="private" static="no">
+        <name>@1</name>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822eaa21a2f97771a05ed216a66ce25fbdedb" prot="private">
+          <name>TAG_SCENEOBJECT</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea989f6707443a9d1a4fc28b8af849da76" prot="private">
+          <name>TAG_LAYOUT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea4a3a728e08ffa244b24da42f8c5e547d" prot="private">
+          <name>TAG_LAYOUT_SPLIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea575d606c136f80e58614167acd9b1f3c" prot="private">
+          <name>TAG_LAYOUT_OUTLINE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea6a8ee70aee9e996411a76fcb6ced06e7" prot="private">
+          <name>TAG_LAYOUT_EXTRA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822eaf2eda24cada7c19480cc3adfa1d9530f" prot="private">
+          <name>TAG_LAYOUT_VIEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ead85d9cabaf6ea972e35d8886e4be2b15" prot="private">
+          <name>TAG_CONTENT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822eacc2422d3f190569e62fea016962b2625" prot="private">
+          <name>TAG_CONTENT_COLOR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ead8f387911d2592663bbdb0d3f4b9085e" prot="private">
+          <name>TAG_CONTENT_EDGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea3529501e33f6ed9c8400ae7bc0cc860a" prot="private">
+          <name>TAG_CONTENT_IMAGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea95b931987c205c1902b50d20d54f8e6b" prot="private">
+          <name>TAG_CONTENT_SPRITE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea6702eb809438c4d494c9b464324655a5" prot="private">
+          <name>TAG_CONTENT_FONT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea930fa4f84b2ffe548319ca3f6a70ceae" prot="private">
+          <name>TAG_CONTENT_TEXT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea3ccd6426bb425818ad291cbb91ad00f6" prot="private">
+          <name>TAG_CONTENT_BUTTON</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822eae964e7bcaa418988ed60d64fc0f34b82" prot="private">
+          <name>TAG_CONTENT_EDITBOX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="12" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="11" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cb" prot="private" static="no">
+        <name>@2</name>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba558abb2cb2d4e27c0a9dafb226931334" prot="private">
+          <name>ATTB_SCENEOBJECT_VERSION</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbab0f3cae00a07f5fb7483d3c1d91086a0" prot="private">
+          <name>ATTB_LAYOUT_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba1bc096c9257f8101b4151504eea9476b" prot="private">
+          <name>ATTB_LAYOUT_SPLIT_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba20ea04dfbb402f53e55922933b8d2317" prot="private">
+          <name>ATTB_LAYOUT_SPLIT_POS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba5fe65f48bba017310f8b0506c24c8a57" prot="private">
+          <name>ATTB_LAYOUT_SPLIT_SIZE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbacdf9a6923c210a5382784d56e4b196c4" prot="private">
+          <name>ATTB_LAYOUT_SPLIT_FILL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba63e95b9c29272141f2d65e381695c8f5" prot="private">
+          <name>ATTB_LAYOUT_OUTLINE_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaf54b7b4c298ddb6d4348362ecc595913" prot="private">
+          <name>ATTB_LAYOUT_OUTLINE_SIZE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba2c4bf8db5f5ecf94f8bcc83138962219" prot="private">
+          <name>ATTB_LAYOUT_OUTLINE_FILL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba3249c7a47b80437afc041cb8cb25213e" prot="private">
+          <name>ATTB_LAYOUT_EXTRA_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaaea119213fe6dc73d1f2d0e2982f994c" prot="private">
+          <name>ATTB_LAYOUT_EXTRA_WIDTH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba87e20bbe39baac12ce6c59d1dbe1df9b" prot="private">
+          <name>ATTB_LAYOUT_EXTRA_HEIGHT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbae234817ba4b85defd2a44a87873e420a" prot="private">
+          <name>ATTB_LAYOUT_EXTRA_FILL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba0b18dee08e39830813688bae100e0a78" prot="private">
+          <name>ATTB_LAYOUT_VIEW_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba71945ddd82e25de2d0ef42967a39716c" prot="private">
+          <name>ATTB_LAYOUT_VIEW_POSX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba39bc782b016041ddb7cd0d08d0031f48" prot="private">
+          <name>ATTB_LAYOUT_VIEW_POSY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba68b3be8b9eaf7d6a04852028b058e237" prot="private">
+          <name>ATTB_LAYOUT_VIEW_WIDTH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba23a25df4654a695a125a6161b7d10d48" prot="private">
+          <name>ATTB_LAYOUT_VIEW_HEIGHT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba1703aa6cfbb037f793339a13ccd2d486" prot="private">
+          <name>ATTB_LAYOUT_VIEW_SCROLL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba8ebcace2f3645fbebbc99b09436cabcc" prot="private">
+          <name>ATTB_LAYOUT_VIEW_FILL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba08ba90cae5d8391176d8aabd6c6893e7" prot="private">
+          <name>ATTB_CONTENT_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba83d7b258ca8f1aeeb34f3b1e4e55c1c7" prot="private">
+          <name>ATTB_CONTENT_COLOR_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbab58821079a7ee3fc479490186592c751" prot="private">
+          <name>ATTB_CONTENT_COLOR_ARGB</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba99cf8e2c3561a5a020334eea6f56191f" prot="private">
+          <name>ATTB_CONTENT_EDGE_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba8b98982038ac21fa35ea8eee0ac9df68" prot="private">
+          <name>ATTB_CONTENT_EDGE_COLORS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba561f0631f16d8268ae1306a6b82dee42" prot="private">
+          <name>ATTB_CONTENT_IMAGE_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba47d310647f63b596b95a66cc65786034" prot="private">
+          <name>ATTB_CONTENT_IMAGE_URL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaf83690b0b309337e91193b5b4440715f" prot="private">
+          <name>ATTB_CONTENT_SPRITE_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba6cd31fc42a939d1d931e219799f81d15" prot="private">
+          <name>ATTB_CONTENT_SPRITE_IMAGES</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbac1022c5875c8d06343eede34d3d10147" prot="private">
+          <name>ATTB_CONTENT_SPRITE_DELAY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba2751fbc0bb70d3130387ab714903adaf" prot="private">
+          <name>ATTB_CONTENT_FONT_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba6b1ee8f2f16d966fad78f8d09ddcba5c" prot="private">
+          <name>ATTB_CONTENT_FONT_SIZE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba07ebe4b52d9b1bb5f8275681cce31911" prot="private">
+          <name>ATTB_CONTENT_FONT_URL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaa4b3faa800e62a3f53e4240d74014ec2" prot="private">
+          <name>ATTB_CONTENT_TEXT_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba01c2d1825849b709f94836d679bb6cea" prot="private">
+          <name>ATTB_CONTENT_TEXT_FORMAT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba0b0cd622269a1c80f12d7d5e20309a60" prot="private">
+          <name>ATTB_CONTENT_TEXT_FONT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaddc1ba75e3eb8ee6befba3395bf21ca4" prot="private">
+          <name>ATTB_CONTENT_TEXT_COLOR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaed72350199e614afca51a964b281fac7" prot="private">
+          <name>ATTB_CONTENT_TEXT_VECTOR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbab1885d8ee03628156e277c2e1a9d3656" prot="private">
+          <name>ATTB_CONTENT_TEXT_LINE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaf8b5e52f7cd6e08fea90c62e9bf66e5c" prot="private">
+          <name>ATTB_CONTENT_BUTTON_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba31fda72562260a3223cca0cf0ba55cc7" prot="private">
+          <name>ATTB_CONTENT_BUTTON_IMAGES</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba5bd6fe2e646d8962e18e0a3fecfe34db" prot="private">
+          <name>ATTB_CONTENT_BUTTON_EDGES</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbae9cd6c17ddff73a8aa5d85779c2a237b" prot="private">
+          <name>ATTB_CONTENT_BUTTON_EVENT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba581fbfc6cd4473633ee4681c77bbedd8" prot="private">
+          <name>ATTB_CONTENT_BUTTON_LINK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba98f723cc38f90581c253aa0bd4de3199" prot="private">
+          <name>ATTB_CONTENT_EDITBOX_NAME</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba35a9535c90ed1ed11559cfefba46b7c3" prot="private">
+          <name>ATTB_CONTENT_EDITBOX_TEXT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba6efa8cb37beb4fb327bf0fddf821e61a" prot="private">
+          <name>ATTB_CONTENT_EDITBOX_COLORS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="30" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="29" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_bx_scene_object_1a94c0076a3381b646504fe5833585d597" prot="protected" static="no" mutable="no">
+        <type>Section</type>
+        <definition>Section BxSceneObject::CurSection</definition>
+        <argsstring></argsstring>
+        <name>CurSection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="1669" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="1669" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bx_scene_object_1ac21b872f24dd9c55db9b53ad3265f43d" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_bx_var" kindref="compound">BxVar</ref>&lt; Layout &gt;</type>
+        <definition>BxVar&lt;Layout&gt; BxSceneObject::Layout</definition>
+        <argsstring></argsstring>
+        <name>Layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="1670" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="1670" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bx_scene_object_1af6525b74643e1117f1d03b5996ad2e00" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_bx_var" kindref="compound">BxVar</ref>&lt; Content &gt;</type>
+        <definition>BxVar&lt;Content&gt; BxSceneObject::Content</definition>
+        <argsstring></argsstring>
+        <name>Content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="1671" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="1671" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bx_scene_object_1ada225a4065f7c484bce4f6ee5b6bf12f" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_bx_var_map" kindref="compound">BxVarMap</ref>&lt; Element * &gt;</type>
+        <definition>BxVarMap&lt;Element*&gt; BxSceneObject::Map</definition>
+        <argsstring></argsstring>
+        <name>Map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="1672" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="1672" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bx_scene_object_1af7cdf29e9a2eabefedcfca383abd8751" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global_func <ref refid="class_bx_string" kindref="compound">BxString</ref> &amp;</type>
+        <definition>global_func BxString&amp; BxSceneObject::Domain</definition>
+        <argsstring>()</argsstring>
+        <name>Domain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="81" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1a7485ab6fa827576cde7e698863e6a857" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global_func <ref refid="class_bx_string" kindref="compound">BxString</ref> &amp;</type>
+        <definition>global_func BxString&amp; BxSceneObject::Subject</definition>
+        <argsstring>()</argsstring>
+        <name>Subject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="82" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1ac2da5958236695c02520887b55c81e22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global_func int &amp;</type>
+        <definition>global_func int&amp; BxSceneObject::Version</definition>
+        <argsstring>()</argsstring>
+        <name>Version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="83" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1af273090f90e7f1ce0069627ecae784c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global_func callback_event &amp;</type>
+        <definition>global_func callback_event&amp; BxSceneObject::Callback</definition>
+        <argsstring>()</argsstring>
+        <name>Callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="84" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1a7b94fe04d50fabca176176bf3c208791" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BxSceneObject::BxSceneObject</definition>
+        <argsstring>()</argsstring>
+        <name>BxSceneObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="87" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1a2df96c57911846f247bca4e7835cec50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual BxSceneObject::~BxSceneObject</definition>
+        <argsstring>()</argsstring>
+        <name>~BxSceneObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="88" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1a4b3d901ba8e9b8335997ca798e4defea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BxSceneObject::Init</definition>
+        <argsstring>(int index)</argsstring>
+        <name>Init</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="90" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1a4cdd40049b7af14da739b187c59a2264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BxSceneObject::Quit</definition>
+        <argsstring>(int index)</argsstring>
+        <name>Quit</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="94" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1aee004e3378077b3b0e675031a0b13756" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global_func void</type>
+        <definition>global_func void BxSceneObject::GetParser</definition>
+        <argsstring>(BxXml &amp;XMLParser)</argsstring>
+        <name>GetParser</name>
+        <param>
+          <type><ref refid="class_bx_xml" kindref="compound">BxXml</ref> &amp;</type>
+          <declname>XMLParser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="99" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="98" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1a6b4d4c75eaee387ff974070754bdac72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BxSceneObject::LoadXML</definition>
+        <argsstring>(string FileName)</argsstring>
+        <name>LoadXML</name>
+        <param>
+          <type>string</type>
+          <declname>FileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="165" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="164" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1aefd3c1a9c1ff29a2bc397358c7ed442f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BxSceneObject::AdjustSplitSize</definition>
+        <argsstring>(string SplitName, int SizeBy1024=0)</argsstring>
+        <name>AdjustSplitSize</name>
+        <param>
+          <type>string</type>
+          <declname>SplitName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>SizeBy1024</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="408" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="407" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1a95af91bba96e9150368c2d4ada0368a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BxSceneObject::AdjustViewScroll</definition>
+        <argsstring>(string ViewName, point PosByPixel=point::zero())</argsstring>
+        <name>AdjustViewScroll</name>
+        <param>
+          <type>string</type>
+          <declname>ViewName</declname>
+        </param>
+        <param>
+          <type><ref refid="structpoint" kindref="compound">point</ref></type>
+          <declname>PosByPixel</declname>
+          <defval>point::zero()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="417" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="416" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1a4c3a0a24dec5f6a4a2af270f5cb13dbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BxSceneObject::GetViewSize</definition>
+        <argsstring>(string ViewName, size &amp;OutSize, size &amp;InSize)</argsstring>
+        <name>GetViewSize</name>
+        <param>
+          <type>string</type>
+          <declname>ViewName</declname>
+        </param>
+        <param>
+          <type><ref refid="structsize" kindref="compound">size</ref> &amp;</type>
+          <declname>OutSize</declname>
+        </param>
+        <param>
+          <type><ref refid="structsize" kindref="compound">size</ref> &amp;</type>
+          <declname>InSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="426" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="425" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1a2694023ecb68e6f0402db35833d532e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BxSceneObject::AdjustColorHLS</definition>
+        <argsstring>(string ColorName, int AddHBy256=0, int AddLBy255=0, int AddSBy255=0)</argsstring>
+        <name>AdjustColorHLS</name>
+        <param>
+          <type>string</type>
+          <declname>ColorName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>AddHBy256</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>AddLBy255</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>AddSBy255</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="434" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="433" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1a672f2d4435c5e91b35533c4c475e6b91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BxSceneObject::AdjustTextFormat</definition>
+        <argsstring>(string TextName,...)</argsstring>
+        <name>AdjustTextFormat</name>
+        <param>
+          <type>string</type>
+          <declname>TextName</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="443" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="442" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1a0f3ef903f2e7545b7fa7800cc22f5e66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BxSceneObject::Render</definition>
+        <argsstring>(BxDraw &amp;Draw)</argsstring>
+        <name>Render</name>
+        <param>
+          <type><ref refid="class_bx_draw" kindref="compound">BxDraw</ref> &amp;</type>
+          <declname>Draw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="455" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="454" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bx_scene_object_1a03f0f8f6791e18781a04569c7c0683da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BxSceneObject::OnEvent</definition>
+        <argsstring>(const sysevent &amp;Event)</argsstring>
+        <name>OnEvent</name>
+        <param>
+          <type>const <ref refid="structsysevent" kindref="compound">sysevent</ref> &amp;</type>
+          <declname>Event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="461" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="460" bodyend="466"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>씬객체 운영 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="27">
+        <label>BxVar&lt; Content &gt;</label>
+        <link refid="class_bx_var"/>
+      </node>
+      <node id="28">
+        <label>BxVar&lt; Layout &gt;</label>
+        <link refid="class_bx_var"/>
+      </node>
+      <node id="29">
+        <label>BxVarMap&lt; Element * &gt;</label>
+        <link refid="class_bx_var_map"/>
+      </node>
+      <node id="26">
+        <label>BxSceneObject</label>
+        <link refid="class_bx_scene_object"/>
+        <childnode refid="27" relation="usage">
+          <edgelabel>Content</edgelabel>
+        </childnode>
+        <childnode refid="28" relation="usage">
+          <edgelabel>Layout</edgelabel>
+        </childnode>
+        <childnode refid="29" relation="usage">
+          <edgelabel>Map</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" line="10" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxSceneObject.hpp" bodystart="9" bodyend="1673"/>
+    <listofallmembers>
+      <member refid="class_bx_scene_object_1a2694023ecb68e6f0402db35833d532e3" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>AdjustColorHLS</name></member>
+      <member refid="class_bx_scene_object_1aefd3c1a9c1ff29a2bc397358c7ed442f" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>AdjustSplitSize</name></member>
+      <member refid="class_bx_scene_object_1a672f2d4435c5e91b35533c4c475e6b91" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>AdjustTextFormat</name></member>
+      <member refid="class_bx_scene_object_1a95af91bba96e9150368c2d4ada0368a1" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>AdjustViewScroll</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba5bd6fe2e646d8962e18e0a3fecfe34db" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_BUTTON_EDGES</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbae9cd6c17ddff73a8aa5d85779c2a237b" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_BUTTON_EVENT</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba31fda72562260a3223cca0cf0ba55cc7" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_BUTTON_IMAGES</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba581fbfc6cd4473633ee4681c77bbedd8" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_BUTTON_LINK</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaf8b5e52f7cd6e08fea90c62e9bf66e5c" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_BUTTON_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbab58821079a7ee3fc479490186592c751" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_COLOR_ARGB</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba83d7b258ca8f1aeeb34f3b1e4e55c1c7" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_COLOR_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba8b98982038ac21fa35ea8eee0ac9df68" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_EDGE_COLORS</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba99cf8e2c3561a5a020334eea6f56191f" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_EDGE_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba6efa8cb37beb4fb327bf0fddf821e61a" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_EDITBOX_COLORS</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba98f723cc38f90581c253aa0bd4de3199" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_EDITBOX_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba35a9535c90ed1ed11559cfefba46b7c3" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_EDITBOX_TEXT</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba2751fbc0bb70d3130387ab714903adaf" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_FONT_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba6b1ee8f2f16d966fad78f8d09ddcba5c" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_FONT_SIZE</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba07ebe4b52d9b1bb5f8275681cce31911" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_FONT_URL</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba561f0631f16d8268ae1306a6b82dee42" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_IMAGE_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba47d310647f63b596b95a66cc65786034" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_IMAGE_URL</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba08ba90cae5d8391176d8aabd6c6893e7" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbac1022c5875c8d06343eede34d3d10147" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_SPRITE_DELAY</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba6cd31fc42a939d1d931e219799f81d15" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_SPRITE_IMAGES</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaf83690b0b309337e91193b5b4440715f" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_SPRITE_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaddc1ba75e3eb8ee6befba3395bf21ca4" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_TEXT_COLOR</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba0b0cd622269a1c80f12d7d5e20309a60" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_TEXT_FONT</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba01c2d1825849b709f94836d679bb6cea" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_TEXT_FORMAT</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbab1885d8ee03628156e277c2e1a9d3656" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_TEXT_LINE</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaa4b3faa800e62a3f53e4240d74014ec2" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_TEXT_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaed72350199e614afca51a964b281fac7" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_CONTENT_TEXT_VECTOR</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbae234817ba4b85defd2a44a87873e420a" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_EXTRA_FILL</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba87e20bbe39baac12ce6c59d1dbe1df9b" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_EXTRA_HEIGHT</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba3249c7a47b80437afc041cb8cb25213e" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_EXTRA_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaaea119213fe6dc73d1f2d0e2982f994c" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_EXTRA_WIDTH</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbab0f3cae00a07f5fb7483d3c1d91086a0" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba2c4bf8db5f5ecf94f8bcc83138962219" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_OUTLINE_FILL</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba63e95b9c29272141f2d65e381695c8f5" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_OUTLINE_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbaf54b7b4c298ddb6d4348362ecc595913" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_OUTLINE_SIZE</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cbacdf9a6923c210a5382784d56e4b196c4" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_SPLIT_FILL</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba1bc096c9257f8101b4151504eea9476b" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_SPLIT_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba20ea04dfbb402f53e55922933b8d2317" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_SPLIT_POS</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba5fe65f48bba017310f8b0506c24c8a57" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_SPLIT_SIZE</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba8ebcace2f3645fbebbc99b09436cabcc" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_VIEW_FILL</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba23a25df4654a695a125a6161b7d10d48" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_VIEW_HEIGHT</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba0b18dee08e39830813688bae100e0a78" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_VIEW_NAME</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba71945ddd82e25de2d0ef42967a39716c" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_VIEW_POSX</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba39bc782b016041ddb7cd0d08d0031f48" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_VIEW_POSY</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba1703aa6cfbb037f793339a13ccd2d486" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_VIEW_SCROLL</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba68b3be8b9eaf7d6a04852028b058e237" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_LAYOUT_VIEW_WIDTH</name></member>
+      <member refid="class_bx_scene_object_1ae5b5c2e23b82f1c6fe30c3aad90d64cba558abb2cb2d4e27c0a9dafb226931334" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>ATTB_SCENEOBJECT_VERSION</name></member>
+      <member refid="class_bx_scene_object_1a7b94fe04d50fabca176176bf3c208791" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>BxSceneObject</name></member>
+      <member refid="class_bx_scene_object_1af273090f90e7f1ce0069627ecae784c3" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>Callback</name></member>
+      <member refid="class_bx_scene_object_1af6525b74643e1117f1d03b5996ad2e00" prot="protected" virt="non-virtual"><scope>BxSceneObject</scope><name>Content</name></member>
+      <member refid="class_bx_scene_object_1a94c0076a3381b646504fe5833585d597" prot="protected" virt="non-virtual"><scope>BxSceneObject</scope><name>CurSection</name></member>
+      <member refid="class_bx_scene_object_1af7cdf29e9a2eabefedcfca383abd8751" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>Domain</name></member>
+      <member refid="class_bx_scene_object_1aee004e3378077b3b0e675031a0b13756" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>GetParser</name></member>
+      <member refid="class_bx_scene_object_1a4c3a0a24dec5f6a4a2af270f5cb13dbc" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>GetViewSize</name></member>
+      <member refid="class_bx_scene_object_1a4b3d901ba8e9b8335997ca798e4defea" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>Init</name></member>
+      <member refid="class_bx_scene_object_1ac21b872f24dd9c55db9b53ad3265f43d" prot="protected" virt="non-virtual"><scope>BxSceneObject</scope><name>Layout</name></member>
+      <member refid="class_bx_scene_object_1a6b4d4c75eaee387ff974070754bdac72" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>LoadXML</name></member>
+      <member refid="class_bx_scene_object_1ada225a4065f7c484bce4f6ee5b6bf12f" prot="protected" virt="non-virtual"><scope>BxSceneObject</scope><name>Map</name></member>
+      <member refid="class_bx_scene_object_1a03f0f8f6791e18781a04569c7c0683da" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>OnEvent</name></member>
+      <member refid="class_bx_scene_object_1a4cdd40049b7af14da739b187c59a2264" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>Quit</name></member>
+      <member refid="class_bx_scene_object_1a0f3ef903f2e7545b7fa7800cc22f5e66" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>Render</name></member>
+      <member refid="class_bx_scene_object_1a7485ab6fa827576cde7e698863e6a857" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>Subject</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ead85d9cabaf6ea972e35d8886e4be2b15" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_CONTENT</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea3ccd6426bb425818ad291cbb91ad00f6" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_CONTENT_BUTTON</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822eacc2422d3f190569e62fea016962b2625" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_CONTENT_COLOR</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ead8f387911d2592663bbdb0d3f4b9085e" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_CONTENT_EDGE</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822eae964e7bcaa418988ed60d64fc0f34b82" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_CONTENT_EDITBOX</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea6702eb809438c4d494c9b464324655a5" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_CONTENT_FONT</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea3529501e33f6ed9c8400ae7bc0cc860a" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_CONTENT_IMAGE</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea95b931987c205c1902b50d20d54f8e6b" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_CONTENT_SPRITE</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea930fa4f84b2ffe548319ca3f6a70ceae" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_CONTENT_TEXT</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea989f6707443a9d1a4fc28b8af849da76" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_LAYOUT</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea6a8ee70aee9e996411a76fcb6ced06e7" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_LAYOUT_EXTRA</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea575d606c136f80e58614167acd9b1f3c" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_LAYOUT_OUTLINE</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822ea4a3a728e08ffa244b24da42f8c5e547d" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_LAYOUT_SPLIT</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822eaf2eda24cada7c19480cc3adfa1d9530f" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_LAYOUT_VIEW</name></member>
+      <member refid="class_bx_scene_object_1a0d0ccf0f8b3d5381428ae45b2605822eaa21a2f97771a05ed216a66ce25fbdedb" prot="private" virt="non-virtual"><scope>BxSceneObject</scope><name>TAG_SCENEOBJECT</name></member>
+      <member refid="class_bx_scene_object_1ac2da5958236695c02520887b55c81e22" prot="public" virt="non-virtual"><scope>BxSceneObject</scope><name>Version</name></member>
+      <member refid="class_bx_scene_object_1a2df96c57911846f247bca4e7835cec50" prot="public" virt="virtual"><scope>BxSceneObject</scope><name>~BxSceneObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

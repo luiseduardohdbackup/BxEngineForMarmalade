@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="class_bx_var_1_1_var_node" kind="class" prot="private">
+    <compoundname>BxVar::VarNode</compoundname>
+    <derivedcompoundref refid="class_bx_var_1_1_var_leaf" prot="public" virt="non-virtual">BxVar&lt; TYPE &gt;::VarLeaf</derivedcompoundref>
+    <derivedcompoundref refid="class_bx_var_1_1_var_path" prot="public" virt="non-virtual">BxVar&lt; TYPE &gt;::VarPath</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_bx_var_1_1_var_node_1a7ac17a5ce8eb4124edc3fc2fe3f58706" prot="public" static="no">
+        <name>NodeType</name>
+        <enumvalue id="class_bx_var_1_1_var_node_1a7ac17a5ce8eb4124edc3fc2fe3f58706a3bd538903134fadb9c2139dffea4af86" prot="public">
+          <name>PATH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_bx_var_1_1_var_node_1a7ac17a5ce8eb4124edc3fc2fe3f58706a9e095dc5ddcddd3256c4e79facbca73e" prot="public">
+          <name>LEAF</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="264" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="264" bodyend="264"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bx_var_1_1_var_node_1aeb560cb98f34f92f68d314451d385a1b" prot="public" static="no" mutable="no">
+        <type>NodeType</type>
+        <definition>NodeType BxVar&lt; TYPE &gt;::VarNode::Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="265" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bx_var_1_1_var_node_1a61e3087ef369e464de6753ba85cd791d" prot="public" static="no" mutable="no">
+        <type>VarPath *</type>
+        <definition>VarPath* BxVar&lt; TYPE &gt;::VarNode::Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="266" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bx_var_1_1_var_node_1a01a3b3a102e7e15446e0ff45b089556b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global_func void</type>
+        <definition>global_func void BxVar&lt; TYPE &gt;::VarNode::DeleteNode</definition>
+        <argsstring>(VarNode *node)</argsstring>
+        <name>DeleteNode</name>
+        <param>
+          <type>VarNode *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="269" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="268" bodyend="274"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="103">
+        <label>BxVar&lt; TYPE &gt;::VarLeaf</label>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>BxVar&lt; TYPE &gt;::VarNode</label>
+      </node>
+      <node id="104">
+        <label>BxVar&lt; TYPE &gt;::VarPath</label>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="105">
+        <label>BxVar&lt; TYPE &gt;::VarNode</label>
+        <childnode refid="106" relation="usage">
+          <edgelabel>Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="106">
+        <label>BxVar&lt; TYPE &gt;::VarPath</label>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+        <childnode refid="105" relation="usage">
+          <edgelabel>Child</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" line="262" bodyfile="C:/Bonexpecial/Team_Onezay/Project/BxEngineForMarmalade/bxlib/BxVar.hpp" bodystart="261" bodyend="275"/>
+    <listofallmembers>
+      <member refid="class_bx_var_1_1_var_node_1a01a3b3a102e7e15446e0ff45b089556b" prot="public" virt="non-virtual"><scope>BxVar::VarNode</scope><name>DeleteNode</name></member>
+      <member refid="class_bx_var_1_1_var_node_1a7ac17a5ce8eb4124edc3fc2fe3f58706a9e095dc5ddcddd3256c4e79facbca73e" prot="public" virt="non-virtual"><scope>BxVar::VarNode</scope><name>LEAF</name></member>
+      <member refid="class_bx_var_1_1_var_node_1a7ac17a5ce8eb4124edc3fc2fe3f58706" prot="public" virt="non-virtual"><scope>BxVar::VarNode</scope><name>NodeType</name></member>
+      <member refid="class_bx_var_1_1_var_node_1a61e3087ef369e464de6753ba85cd791d" prot="public" virt="non-virtual"><scope>BxVar::VarNode</scope><name>Parent</name></member>
+      <member refid="class_bx_var_1_1_var_node_1a7ac17a5ce8eb4124edc3fc2fe3f58706a3bd538903134fadb9c2139dffea4af86" prot="public" virt="non-virtual"><scope>BxVar::VarNode</scope><name>PATH</name></member>
+      <member refid="class_bx_var_1_1_var_node_1aeb560cb98f34f92f68d314451d385a1b" prot="public" virt="non-virtual"><scope>BxVar::VarNode</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
